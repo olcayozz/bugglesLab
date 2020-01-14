@@ -13,7 +13,7 @@ pipeline {
                 script {
                     echo "3"
                     COMMITTED_PATHS = sh (script: 'git diff-tree --no-commit-id --name-only -r HEAD', returnStdout: true).trim()
-                    echo "ChangeSet:   ${COMMITTED_PATHS}"
+                    echo "${COMMITTED_PATHS}\n"
                 }
             }
         }
