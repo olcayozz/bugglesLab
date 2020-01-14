@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout development branch of DWH repository to Jenkins Machine') {
             steps 
             {
-                git branch: 'feature/devopsb', url: 'https://github.com/olcayozz/bugglesLab.git'
+                git branch: 'feature/s1', url: 'https://github.com/olcayozz/bugglesLab.git'
                 echo "2"
             }
         }
