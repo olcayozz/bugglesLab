@@ -5,15 +5,35 @@ pipeline {
             steps 
             {
                 git branch: 'feature/s1', url: 'https://github.com/olcayozz/bugglesLab.git'
-                echo "2"
+            }
+        }
+        stage("Test changeset"){
+        when { changeset "**/Jenkinsfile"}
+            steps{ echo "The changeset test worked!!"}
+        }
+        stage("Display changeset?") {
+            steps {
+                script {
+                    def changeLogSets = currentBuild.changeSets
+                    for (int i = 0; i < changeLogSets.size(); i++) {
+                    def entries = changeLogSets[i].items
+                    for (int j = 0; j < entries.length; j++) {
+                        def entry = entries[j]
+                        echo "${entry.commitId} by ${entry.author} on ${new Date(entry.timestamp)}: ${entry.msg}"
+                        def files = new ArrayList(entry.affectedFiles)
+                        for (int k = 0; k < files.size(); k++) {
+                            def file = files[k]
+                            echo " ${file.editType.name} ${file.path}"
+                        }
+                    }
+                    }
+                }
             }
         }
         stage('Parse ChangeSet') {
             steps {
                 script {
-                    echo "3"
                     COMMITTED_PATHS = sh (script: 'git diff-tree --no-commit-id --name-only -r HEAD', returnStdout: true).trim()
-                    echo "${COMMITTED_PATHS}\n"
                 }
             }
         }
