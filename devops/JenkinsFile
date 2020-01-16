@@ -1,40 +1,70 @@
 pipeline {
-    agent any
+    agent { label 'master' }
     stages {
         stage('Checkout development branch of DWH repository to Jenkins Machine') {
             steps 
             {
-                git branch: 'feature/s1', url: 'https://github.com/olcayozz/bugglesLab.git'
-            }
+                git branch: 'feature/s1', credentialsId: 'github-olcayozz', url: 'https://github.com/olcayozz/bugglesLab.git'
+                script {
+                    env.commitChangeset = sh(returnStdout: true, script: 'git diff-tree --no-commit-id --name-status -r HEAD').trim()
+                }
+            }			
         }
-        stage("Test changeset"){
-        when { changeset "**/Jenkinsfile"}
-            steps{ echo "The changeset test worked!!"}
-        }
-        stage("Display changeset?") {
+        stage('ChangeSet Parsing')
+        {
             steps {
                 script {
-                    def changeLogSets = currentBuild.changeSets
-                    for (int i = 0; i < changeLogSets.size(); i++) {
-                    def entries = changeLogSets[i].items
-                    for (int j = 0; j < entries.length; j++) {
-                        def entry = entries[j]
-                        echo "${entry.commitId} by ${entry.author} on ${new Date(entry.timestamp)}: ${entry.msg}"
-                        def files = new ArrayList(entry.affectedFiles)
-                        for (int k = 0; k < files.size(); k++) {
-                            def file = files[k]
-                            echo " ${file.editType.name} ${file.path}"
+                    def pattern = ~/(db_sources|odi|sch)\/(.*)\/(.*)\.(.*)/
+                    def changes = []
+                    for (item in env.commitChangeset.split( '\n' )) {
+                        def objs = item =~ pattern
+                        changes << objs[0]
+                    }
+                    env.ParsedChangeSet=changes
+                    println env.ParsedChangeSet
+                }
+            }
+        }
+        stage('Connect ODI') {
+            steps {
+                script {
+                    def workspace = env.WORKSPACE
+                    echo "$workspace"
+                    println "ODI bağlantısını deniyoruz."
+                }
+            }
+        }
+        stage('SQL Deployments') {
+            steps {
+                script {
+                    def pattern = ~/(db_sources|odi|sch)\/(.*)\/(.*)\.(.*)/
+                    def changes = []
+                    for (item in env.commitChangeset.split( '\n' )) {
+                        def objs = item =~ pattern
+                    
+                        switch (objs[0][1]) {
+                            case "db_sources": 
+                                
+                                println "sql deployment : " + objs[0][0]; 
+                            
+                            break;
+                            case "odi": 
+                                
+                                println "odi : " + objs[0][0]; 
+                                
+                                
+                                
+                                break;
+                            case "sch": println "sch : " + objs[0][0]; break;
+                            default: println "Something else !!!!....  " + objs[0][0];
                         }
                     }
-                    }
                 }
             }
         }
-        stage('Parse ChangeSet') {
+        stage('Dump ENV') {
             steps {
-                script {
-                    COMMITTED_PATHS = sh (script: 'git diff-tree --no-commit-id --name-only -r HEAD', returnStdout: true).trim()
-                }
+                sh "printenv"
             }
         }
     }
