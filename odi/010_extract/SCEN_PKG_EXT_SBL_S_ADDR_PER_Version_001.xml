@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="HNVaKXPrcP06BkHvCs0rhBW22W5MVTYrFssvL7v04e4=" keyVect="3+AG/lIZJoyw1AQBg0ox6Q==" exportKeySalt="a658b3a5-c4e5-43ac-8120-bdb71d8c427a" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpScen">
+		<Field name="CecSessBehavior" type="java.lang.String">null</Field>
+	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2019-07-29 14:23:08.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[AKOCAK]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[70d94032-7e87-45d0-bad8-8f128f42b251]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndPromptParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="IsMaterialized" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IPackage" type="com.sunopsis.sql.DbInt"><![CDATA[483]]></Field>
+	<Field name="IPop" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScenFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtScen" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2019-07-29 14:26:00.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[AKOCAK]]></Field>
+	<Field name="MaxCecSess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="RepGuid" type="java.lang.String">null</Field>
+	<Field name="RepVersion" type="java.lang.String">null</Field>
+	<Field name="RestartType" type="java.lang.String">null</Field>
+	<Field name="ScenName" type="java.lang.String"><![CDATA[PKG_EXT_SBL_S_ADDR_PER]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[20190701]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[84a48790-5d57-4188-8923-daa391357da7]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_ETL_DATE]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9a44c169-1edc-43d1-9040-a14e8db4221c]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[L]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[A]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[888020cd-c6fa-44ec-bef7-073d4660c78c]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String">null</Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ResName" type="java.lang.String">null</Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[VAR_ETL_DATE]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[VD]]></Field>
+	<Field name="TableName" type="java.lang.String">null</Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_ETL_DATE]]></Field>
+	<Field name="VarOp" type="java.lang.String"><![CDATA[=]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[549eda9a-dfdc-40be-bf5a-be5ebcf62acb]]></Field>
+	<Field name="IndErr" type="java.lang.String">null</Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String">null</Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="MapTaskType" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Variable]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[VAR_ETL_DATE]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2e8d4624-71c6-4294-aa11-b48f90fa5e0a]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String">null</Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="ResName" type="java.lang.String">null</Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[V]]></Field>
+	<Field name="TableName" type="java.lang.String">null</Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="VarOp" type="java.lang.String"><![CDATA[=]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[ODI_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[select param_value_1
+from odi.ETL_PARAMS
+where 1=1
+  and param_name = 'SQLLDR_WORK_DIRECTORY']]></Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7b9e96a1-08f5-442c-99d4-e1cef0e48908]]></Field>
+	<Field name="IndErr" type="java.lang.String">null</Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String">null</Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="MapTaskType" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Variable]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String"><![CDATA[<map-generation-info>
+   <node name="S_ADDR_PER_AP" type="LKM" km="LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE).GLOBAL">
+      <option name="CREATE_TMP_FILES" value="true" default="true"/>
+      <option name="HINT" value="" default="true"/>
+      <option name="ROW_SEPERATOR" value="\n" default="true"/>
+      <option name="TRUNCATE TARGET TABLE" value="true" default="true"/>
+      <option name="FIELD_SEPERATOR" value="~" default="true"/>
+      <option name="CMD_SHELL" value="sh -c" default="true"/>
+      <option name="WORK_DIRECTORY" value="#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY" default="true"/>
+      <option name="WINDOWS" value="false" default="true"/>
+      <option name="LOAD_DIRECT" value="TRUE" default="true"/>
+      <option name="LOAD_ERRORS" value="0" default="true"/>
+      <option name="LOAD_PARALLEL" value="TRUE" default="true"/>
+      <option name="LOAD_DISCARDMAX" value="1" default="true"/>
+      <option name="WORK_TABLE_OPTIONS" value="NOLOGGING" default="true"/>
+      <option name="DROP_WORK_TABLE" value="true" default="true"/>
+      <option name="FETCH_SIZE" value="5000" default="true"/>
+      <option name="CONCAT_ON_SOURCE" value="false" default="true"/>
+      <option name="DATE_FORMAT" value="yyyy-MM-dd" default="true"/>
+   </node>
+   <node name="SBL_S_ADDR_PER" type="IKM" km="IKM No-op.GLOBAL"/>
+   <node name="S_ADDR_PER" type="XKM" km="XKM Oracle Extract.GLOBAL">
+      <option name="CUSTOM_TEMPLATE" value=" " default="true"/>
+      <option name="SELECT_HINT" value=" " default="true"/>
+   </node>
+   <target name="SBL_S_ADDR_PER" resource="SBL_S_ADDR_PER" model="MD_ORACLE_EXTRACT_ETL" logicalSchema="EXTRACT_ETL_ORACLE" forcedContext=""/>
+</map-generation-info>]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[fb69d513-a3a1-44bd-aa39-b1849fcd014f]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ResName" type="java.lang.String">null</Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[EXT_SBL_S_ADDR_PER]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[M]]></Field>
+	<Field name="TableName" type="java.lang.String">null</Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String">null</Field>
+	<Field name="VarOp" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[3a4a3a7e-4f3b-40fa-944a-57994c28c005]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[MAP_MAIN]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bd792d6d-b60b-4b2d-b9b9-7aed29c99150]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[EU]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[SIEBEL_ORACLE_UNIT]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiSqlUnload "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.dat" "-driver=<?= odiRef.getInfo("SRC_JAVA_DRIVER") ?>" "-URL=<?= odiRef.getInfo("SRC_JAVA_URL") ?>" -user=<?= odiRef.getInfo("SRC_USER_NAME") ?> -pass=<?= odiRef.getInfo("SRC_ENCODED_PASS") ?> -file_format=variable -charset_encoding=ISO8859_9 "-row_sep=\n" "-date_format=" -fetch_size=5000 "-field_sep=~"
+select 	 
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ROW_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ROW_ID<?}?> AS ROW_ID,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.CREATED,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.CREATED<?}?> AS CREATED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.CREATED_BY,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.CREATED_BY<?}?> AS CREATED_BY,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LAST_UPD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LAST_UPD<?}?> AS LAST_UPD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LAST_UPD_BY,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LAST_UPD_BY<?}?> AS LAST_UPD_BY,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.DCKING_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.DCKING_NUM<?}?> AS DCKING_NUM,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.MODIFICATION_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.MODIFICATION_NUM<?}?> AS MODIFICATION_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.CONFLICT_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.CONFLICT_ID<?}?> AS CONFLICT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_NAME,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_NAME<?}?> AS ADDR_NAME,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ALIGNMENT_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ALIGNMENT_FLG<?}?> AS ALIGNMENT_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.DISA_CLEANSE_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.DISA_CLEANSE_FLG<?}?> AS DISA_CLEANSE_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LOCATION_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LOCATION_FLG<?}?> AS LOCATION_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.NAME_LOCK_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.NAME_LOCK_FLG<?}?> AS NAME_LOCK_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.PREMISE_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.PREMISE_FLG<?}?> AS PREMISE_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ACTIVE_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ACTIVE_FLG<?}?> AS ACTIVE_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ALTITUDE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ALTITUDE<?}?> AS ALTITUDE,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.DB_LAST_UPD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.DB_LAST_UPD<?}?> AS DB_LAST_UPD,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.END_DT,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.END_DT<?}?> AS END_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.INFO_RECORD_DT,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.INFO_RECORD_DT<?}?> AS INFO_RECORD_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LATITUDE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LATITUDE<?}?> AS LATITUDE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LONGITUDE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LONGITUDE<?}?> AS LONGITUDE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.MSA,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.MSA<?}?> AS MSA,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.START_DT,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.START_DT<?}?> AS START_DT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR<?}?> AS ADDR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDRESSEE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDRESSEE<?}?> AS ADDRESSEE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_LINE_2,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_LINE_2<?}?> AS ADDR_LINE_2,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_LINE_3,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_LINE_3<?}?> AS ADDR_LINE_3,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_LINE_4,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_LINE_4<?}?> AS ADDR_LINE_4,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_LINE_5,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_LINE_5<?}?> AS ADDR_LINE_5,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_MAIL_CD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_MAIL_CD<?}?> AS ADDR_MAIL_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_NUM<?}?> AS ADDR_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_SUB_CD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_SUB_CD<?}?> AS ADDR_SUB_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ADDR_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ADDR_TYPE_CD<?}?> AS ADDR_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.AIA_INTEG_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.AIA_INTEG_ID<?}?> AS AIA_INTEG_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.BILLACCT_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.BILLACCT_ID<?}?> AS BILLACCT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.CITY,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.CITY<?}?> AS CITY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.COMMENTS,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.COMMENTS<?}?> AS COMMENTS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.COUNTRY,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.COUNTRY<?}?> AS COUNTRY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.COUNTRY_REGION,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.COUNTRY_REGION<?}?> AS COUNTRY_REGION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.COUNTY,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.COUNTY<?}?> AS COUNTY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.CROSS_ST,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.CROSS_ST<?}?> AS CROSS_ST,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.DB_LAST_UPD_SRC,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.DB_LAST_UPD_SRC<?}?> AS DB_LAST_UPD_SRC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.DESCRIPTOR,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.DESCRIPTOR<?}?> AS DESCRIPTOR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.DISTRICT,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.DISTRICT<?}?> AS DISTRICT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.EMAIL_ADDR,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.EMAIL_ADDR<?}?> AS EMAIL_ADDR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.FAX_PH_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.FAX_PH_NUM<?}?> AS FAX_PH_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.INTEGRATION2_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.INTEGRATION2_ID<?}?> AS INTEGRATION2_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.INTEGRATION3_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.INTEGRATION3_ID<?}?> AS INTEGRATION3_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.INTEGRATION_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.INTEGRATION_ID<?}?> AS INTEGRATION_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LANDLORD_NAME,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LANDLORD_NAME<?}?> AS LANDLORD_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.LANDLORD_PH_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.LANDLORD_PH_NUM<?}?> AS LANDLORD_PH_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.METRO_AREA,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.METRO_AREA<?}?> AS METRO_AREA,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.MISC_ADDR_LINE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.MISC_ADDR_LINE<?}?> AS MISC_ADDR_LINE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.OWNERSHIP_CD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.OWNERSHIP_CD<?}?> AS OWNERSHIP_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.PAR_ADDR_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.PAR_ADDR_ID<?}?> AS PAR_ADDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.PER_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.PER_ID<?}?> AS PER_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.PH_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.PH_NUM<?}?> AS PH_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.PROVINCE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.PROVINCE<?}?> AS PROVINCE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.RURAL_ROUTE_NUM,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.RURAL_ROUTE_NUM<?}?> AS RURAL_ROUTE_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.STATE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.STATE<?}?> AS STATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.TIME_ZONE_CD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.TIME_ZONE_CD<?}?> AS TIME_ZONE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.UTM_EASTING,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.UTM_EASTING<?}?> AS UTM_EASTING,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.UTM_NORTHING,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.UTM_NORTHING<?}?> AS UTM_NORTHING,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.WORLD_AREA,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.WORLD_AREA<?}?> AS WORLD_AREA,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ZIPCODE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ZIPCODE<?}?> AS ZIPCODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ZIPCODE_EXT,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ZIPCODE_EXT<?}?> AS ZIPCODE_EXT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_ACCNT_V15_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_ACCNT_V15_ID<?}?> AS X_ACCNT_V15_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_CITY_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_CITY_ID<?}?> AS X_CITY_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_MIGR_FLG_STATUS,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_MIGR_FLG_STATUS<?}?> AS X_MIGR_FLG_STATUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_MIGR_RUN_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_MIGR_RUN_ID<?}?> AS X_MIGR_RUN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_MIGR_STATUS,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_MIGR_STATUS<?}?> AS X_MIGR_STATUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_AVEN_BOUL,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_AVEN_BOUL<?}?> AS X_VF_AVEN_BOUL,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_CITY_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_CITY_ID<?}?> AS X_VF_CITY_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_FULLADDR_CYPRUS,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_FULLADDR_CYPRUS<?}?> AS X_VF_FULLADDR_CYPRUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_LEGACY_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_LEGACY_ID<?}?> AS X_VF_LEGACY_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_MAHALLE_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_MAHALLE_ID<?}?> AS X_VF_MAHALLE_ID,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_MIGR_DATE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_MIGR_DATE<?}?> AS X_VF_MIGR_DATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_PLACE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_PLACE<?}?> AS X_VF_PLACE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_PROVINCE_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_PROVINCE_ID<?}?> AS X_VF_PROVINCE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_STREET_NAME,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_STREET_NAME<?}?> AS X_VF_STREET_NAME,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_VERIF_FLAG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_VERIF_FLAG<?}?> AS X_VF_VERIF_FLAG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_VILLAGE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_VILLAGE<?}?> AS X_VF_VILLAGE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_YOL_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_YOL_ID<?}?> AS X_VF_YOL_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_ZIPCODE_PROVINCE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_ZIPCODE_PROVINCE<?}?> AS X_VF_ZIPCODE_PROVINCE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_APART_PICKED,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_APART_PICKED<?}?> AS X_VF_APART_PICKED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_AVENUE_PICKED,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_AVENUE_PICKED<?}?> AS X_VF_AVENUE_PICKED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_KAPI_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_KAPI_ID<?}?> AS X_VF_KAPI_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_POI_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_POI_ID<?}?> AS X_VF_POI_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_POSTAL_CODE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_POSTAL_CODE<?}?> AS X_VF_POSTAL_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_POSTAL_CODE_CYPRUS,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_POSTAL_CODE_CYPRUS<?}?> AS X_VF_POSTAL_CODE_CYPRUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_SITE_PICKED,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_SITE_PICKED<?}?> AS X_VF_SITE_PICKED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_STREET_PICKED,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_STREET_PICKED<?}?> AS X_VF_STREET_PICKED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_TYPE_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_TYPE_ID<?}?> AS X_VF_TYPE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_XCOOR,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_XCOOR<?}?> AS X_VF_XCOOR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_YCOOR,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_YCOOR<?}?> AS X_VF_YCOOR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_ZIP_CD_MNL_PICK,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_ZIP_CD_MNL_PICK<?}?> AS X_VF_ZIP_CD_MNL_PICK,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_VF_VERIFIED_FLAG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_VF_VERIFIED_FLAG<?}?> AS X_VF_VERIFIED_FLAG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.X_MIGR_SUB_RUN_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.X_MIGR_SUB_RUN_ID<?}?> AS X_MIGR_SUB_RUN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.AIA_INTEG1_ID,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.AIA_INTEG1_ID<?}?> AS AIA_INTEG1_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ED_DELETED_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ED_DELETED_FLG<?}?> AS ED_DELETED_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.ED_ENABLED_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.ED_ENABLED_FLG<?}?> AS ED_ENABLED_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.EXT_SYS_SYNC_MSG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.EXT_SYS_SYNC_MSG<?}?> AS EXT_SYS_SYNC_MSG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ADDR_PER.EXT_SYS_SYNC_TS,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.EXT_SYS_SYNC_TS<?}?> AS EXT_SYS_SYNC_TS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEO_ACCURACY_CODE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEO_ACCURACY_CODE<?}?> AS GEO_ACCURACY_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEO_ACCURACY_MSG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEO_ACCURACY_MSG<?}?> AS GEO_ACCURACY_MSG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEO_ACCURACY_VAL,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEO_ACCURACY_VAL<?}?> AS GEO_ACCURACY_VAL,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEOCD_FAIL_DESC,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEOCD_FAIL_DESC<?}?> AS GEOCD_FAIL_DESC,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEOCD_VALID_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEOCD_VALID_FLG<?}?> AS GEOCD_VALID_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEOCODE_STATUS_CD,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEOCODE_STATUS_CD<?}?> AS GEOCODE_STATUS_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.GEOGRAPHY_CODE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.GEOGRAPHY_CODE<?}?> AS GEOGRAPHY_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.NEIGHBORHOOD_NAME,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.NEIGHBORHOOD_NAME<?}?> AS NEIGHBORHOOD_NAME,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.SYNC_SUCCESS_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.SYNC_SUCCESS_FLG<?}?> AS SYNC_SUCCESS_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.VERIFICATION_CODE,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.VERIFICATION_CODE<?}?> AS VERIFICATION_CODE,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ADDR_PER.VERIFIED_FLG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.VERIFIED_FLG<?}?> AS VERIFIED_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ADDR_PER.VERIFY_STATUS_MSG,'yyyy-MM-dd')<?} else {?>S_ADDR_PER.VERIFY_STATUS_MSG<?}?> AS VERIFY_STATUS_MSG
+from	<?= odiRef.getObjectName("L", "S_ADDR_PER", "SIEBEL_ORACLE", "D") ?> S_ADDR_PER
+where	(1=1)
+	  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[baacd45b-6db6-42f2-9eb6-d5060e850410]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Unload source data]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ODI.TRUNC_TABLE('<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>')  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[da239b9b-7f7c-4960-8c1f-c43b961ebe1e]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Truncate target table]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 755 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.sh
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[4ede28b1-9f0e-43c5-a9af-241d1640ad88]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Apply permissions to sh file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 777 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/chk_data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.sh  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[761b3ce2-2bd5-4093-90bc-a8d0cd9b6195]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[140]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[140]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[chmod]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 755 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.dat
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[42f68d74-3c36-4d70-8409-ad077045b70c]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Apply permissions to dat file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 755 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.ctl
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5a4709fe-62c5-41bf-adb2-eca00b69a684]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[100]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Apply permissions to ctl]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[create table <?=odiRef.getSchemaName("EXTRACT_ETL_ORACLE", "D") ?>.SBL_S_ADDR_PER 
+(
+	ROW_ID	VARCHAR2(15) NULL,
+	CREATED	DATE NULL,
+	CREATED_BY	VARCHAR2(15) NULL,
+	LAST_UPD	DATE NULL,
+	LAST_UPD_BY	VARCHAR2(15) NULL,
+	DCKING_NUM	NUMBER(22,7) NULL,
+	MODIFICATION_NUM	NUMBER(10,0) NULL,
+	CONFLICT_ID	VARCHAR2(15) NULL,
+	ADDR_NAME	VARCHAR2(100) NULL,
+	ALIGNMENT_FLG	CHAR(1) NULL,
+	DISA_CLEANSE_FLG	CHAR(1) NULL,
+	LOCATION_FLG	CHAR(1) NULL,
+	NAME_LOCK_FLG	CHAR(1) NULL,
+	PREMISE_FLG	CHAR(1) NULL,
+	ACTIVE_FLG	CHAR(1) NULL,
+	ALTITUDE	NUMBER(22,7) NULL,
+	DB_LAST_UPD	DATE NULL,
+	END_DT	DATE NULL,
+	INFO_RECORD_DT	DATE NULL,
+	LATITUDE	NUMBER(22,7) NULL,
+	LONGITUDE	NUMBER(22,7) NULL,
+	MSA	NUMBER(10,0) NULL,
+	START_DT	DATE NULL,
+	ADDR	VARCHAR2(200) NULL,
+	ADDRESSEE	VARCHAR2(100) NULL,
+	ADDR_LINE_2	VARCHAR2(100) NULL,
+	ADDR_LINE_3	VARCHAR2(100) NULL,
+	ADDR_LINE_4	VARCHAR2(100) NULL,
+	ADDR_LINE_5	VARCHAR2(100) NULL,
+	ADDR_MAIL_CD	VARCHAR2(30) NULL,
+	ADDR_NUM	VARCHAR2(30) NULL,
+	ADDR_SUB_CD	VARCHAR2(30) NULL,
+	ADDR_TYPE_CD	VARCHAR2(30) NULL,
+	AIA_INTEG_ID	VARCHAR2(150) NULL,
+	BILLACCT_ID	VARCHAR2(15) NULL,
+	CITY	VARCHAR2(50) NULL,
+	COMMENTS	VARCHAR2(255) NULL,
+	COUNTRY	VARCHAR2(30) NULL,
+	COUNTRY_REGION	VARCHAR2(100) NULL,
+	COUNTY	VARCHAR2(50) NULL,
+	CROSS_ST	VARCHAR2(100) NULL,
+	DB_LAST_UPD_SRC	VARCHAR2(50) NULL,
+	DESCRIPTOR	VARCHAR2(100) NULL,
+	DISTRICT	VARCHAR2(50) NULL,
+	EMAIL_ADDR	VARCHAR2(350) NULL,
+	FAX_PH_NUM	VARCHAR2(40) NULL,
+	INTEGRATION2_ID	VARCHAR2(30) NULL,
+	INTEGRATION3_ID	VARCHAR2(30) NULL,
+	INTEGRATION_ID	VARCHAR2(30) NULL,
+	LANDLORD_NAME	VARCHAR2(100) NULL,
+	LANDLORD_PH_NUM	VARCHAR2(40) NULL,
+	METRO_AREA	VARCHAR2(100) NULL,
+	MISC_ADDR_LINE	VARCHAR2(100) NULL,
+	OWNERSHIP_CD	VARCHAR2(30) NULL,
+	PAR_ADDR_ID	VARCHAR2(15) NULL,
+	PER_ID	VARCHAR2(15) NULL,
+	PH_NUM	VARCHAR2(40) NULL,
+	PROVINCE	VARCHAR2(50) NULL,
+	RURAL_ROUTE_NUM	VARCHAR2(10) NULL,
+	STATE	VARCHAR2(10) NULL,
+	TIME_ZONE_CD	VARCHAR2(30) NULL,
+	UTM_EASTING	VARCHAR2(30) NULL,
+	UTM_NORTHING	VARCHAR2(30) NULL,
+	WORLD_AREA	VARCHAR2(100) NULL,
+	ZIPCODE	VARCHAR2(30) NULL,
+	ZIPCODE_EXT	VARCHAR2(4) NULL,
+	X_ACCNT_V15_ID	VARCHAR2(15) NULL,
+	X_CITY_ID	VARCHAR2(50) NULL,
+	X_MIGR_FLG_STATUS	CHAR(1) NULL,
+	X_MIGR_RUN_ID	VARCHAR2(30) NULL,
+	X_MIGR_STATUS	VARCHAR2(30) NULL,
+	X_VF_AVEN_BOUL	VARCHAR2(100) NULL,
+	X_VF_CITY_ID	VARCHAR2(20) NULL,
+	X_VF_FULLADDR_CYPRUS	VARCHAR2(2000) NULL,
+	X_VF_LEGACY_ID	VARCHAR2(50) NULL,
+	X_VF_MAHALLE_ID	VARCHAR2(20) NULL,
+	X_VF_MIGR_DATE	DATE NULL,
+	X_VF_PLACE	VARCHAR2(100) NULL,
+	X_VF_PROVINCE_ID	VARCHAR2(20) NULL,
+	X_VF_STREET_NAME	VARCHAR2(200) NULL,
+	X_VF_VERIF_FLAG	CHAR(1) NULL,
+	X_VF_VILLAGE	VARCHAR2(100) NULL,
+	X_VF_YOL_ID	NUMBER(15,0) NULL,
+	X_VF_ZIPCODE_PROVINCE	VARCHAR2(30) NULL,
+	X_VF_APART_PICKED	VARCHAR2(1) NULL,
+	X_VF_AVENUE_PICKED	VARCHAR2(1) NULL,
+	X_VF_KAPI_ID	VARCHAR2(20) NULL,
+	X_VF_POI_ID	VARCHAR2(20) NULL,
+	X_VF_POSTAL_CODE	VARCHAR2(100) NULL,
+	X_VF_POSTAL_CODE_CYPRUS	VARCHAR2(50) NULL,
+	X_VF_SITE_PICKED	VARCHAR2(1) NULL,
+	X_VF_STREET_PICKED	VARCHAR2(1) NULL,
+	X_VF_TYPE_ID	VARCHAR2(4) NULL,
+	X_VF_XCOOR	VARCHAR2(100) NULL,
+	X_VF_YCOOR	VARCHAR2(100) NULL,
+	X_VF_ZIP_CD_MNL_PICK	VARCHAR2(1) NULL,
+	X_VF_VERIFIED_FLAG	CHAR(1) NULL,
+	X_MIGR_SUB_RUN_ID	VARCHAR2(30) NULL,
+	AIA_INTEG1_ID	VARCHAR2(500) NULL,
+	ED_DELETED_FLG	CHAR(1) NULL,
+	ED_ENABLED_FLG	CHAR(1) NULL,
+	EXT_SYS_SYNC_MSG	VARCHAR2(250) NULL,
+	EXT_SYS_SYNC_TS	DATE NULL,
+	GEO_ACCURACY_CODE	VARCHAR2(10) NULL,
+	GEO_ACCURACY_MSG	VARCHAR2(255) NULL,
+	GEO_ACCURACY_VAL	NUMBER(22,7) NULL,
+	GEOCD_FAIL_DESC	VARCHAR2(250) NULL,
+	GEOCD_VALID_FLG	CHAR(1) NULL,
+	GEOCODE_STATUS_CD	VARCHAR2(30) NULL,
+	GEOGRAPHY_CODE	VARCHAR2(30) NULL,
+	NEIGHBORHOOD_NAME	VARCHAR2(50) NULL,
+	SYNC_SUCCESS_FLG	CHAR(1) NULL,
+	VERIFICATION_CODE	VARCHAR2(30) NULL,
+	VERIFIED_FLG	CHAR(1) NULL,
+	VERIFY_STATUS_MSG	VARCHAR2(500) NULL
+)  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7899e886-d41c-428c-aaaa-f1272ec2dd9e]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[110]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[110]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Create Target Table]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiOutFile "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/chk_data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.sh"
+FILE=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.dat
+if [ -s "$FILE" ]; then 
+echo "$FILE has data"
+exit 0; 
+else 
+echo "$FILE is empty"
+exit 0;fi 
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[8f14637f-ee89-4d8f-89c1-1a9d17e8d921]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[130]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[130]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Check if file empty]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[sh -c
+"#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/chk_data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.sh"  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ecec38fa-7415-41e2-bc4f-b8c712746740]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[150]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[150]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[check run]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[SnpsOutFile "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.ctl"
+OPTIONS (
+	SKIP=0,
+	ERRORS=0,
+	DIRECT=TRUE
+	)
+LOAD DATA
+INFILE "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.dat"
+BADFILE "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.bad"
+DISCARDFILE "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.dsc"
+DISCARDMAX 1
+APPEND
+INTO TABLE <?=odiRef.getSchemaName("EXTRACT_ETL_ORACLE", "D") ?>.SBL_S_ADDR_PER 
+FIELDS TERMINATED BY '~' 
+TRAILING NULLCOLS
+(
+	ROW_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREATED<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREATED_BY<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_UPD<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_UPD_BY<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DCKING_NUM<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MODIFICATION_NUM<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CONFLICT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_NAME<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ALIGNMENT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DISA_CLEANSE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LOCATION_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NAME_LOCK_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PREMISE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ACTIVE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ALTITUDE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DB_LAST_UPD<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	END_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INFO_RECORD_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LATITUDE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LONGITUDE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MSA<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	START_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR<?if ("VARCHAR2(200)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDRESSEE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_LINE_2<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_LINE_3<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_LINE_4<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_LINE_5<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_MAIL_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_NUM<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_SUB_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADDR_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AIA_INTEG_ID<?if ("VARCHAR2(150)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BILLACCT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CITY<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COMMENTS<?if ("VARCHAR2(255)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COUNTRY<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COUNTRY_REGION<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COUNTY<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CROSS_ST<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DB_LAST_UPD_SRC<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DESCRIPTOR<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DISTRICT<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EMAIL_ADDR<?if ("VARCHAR2(350)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FAX_PH_NUM<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INTEGRATION2_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INTEGRATION3_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INTEGRATION_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LANDLORD_NAME<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LANDLORD_PH_NUM<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	METRO_AREA<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MISC_ADDR_LINE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	OWNERSHIP_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAR_ADDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PER_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PH_NUM<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PROVINCE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RURAL_ROUTE_NUM<?if ("VARCHAR2(10)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STATE<?if ("VARCHAR2(10)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TIME_ZONE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	UTM_EASTING<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	UTM_NORTHING<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	WORLD_AREA<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ZIPCODE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ZIPCODE_EXT<?if ("VARCHAR2(4)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_ACCNT_V15_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_CITY_ID<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_FLG_STATUS<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_RUN_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_STATUS<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_AVEN_BOUL<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CITY_ID<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_FULLADDR_CYPRUS<?if ("VARCHAR2(2000)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_LEGACY_ID<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MAHALLE_ID<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MIGR_DATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PLACE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PROVINCE_ID<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_STREET_NAME<?if ("VARCHAR2(200)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_VERIF_FLAG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_VILLAGE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_YOL_ID<?if ("NUMBER(15,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_ZIPCODE_PROVINCE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_APART_PICKED<?if ("VARCHAR2(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_AVENUE_PICKED<?if ("VARCHAR2(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_KAPI_ID<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_POI_ID<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_POSTAL_CODE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_POSTAL_CODE_CYPRUS<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_SITE_PICKED<?if ("VARCHAR2(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_STREET_PICKED<?if ("VARCHAR2(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_TYPE_ID<?if ("VARCHAR2(4)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_XCOOR<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_YCOOR<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_ZIP_CD_MNL_PICK<?if ("VARCHAR2(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_VERIFIED_FLAG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_SUB_RUN_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AIA_INTEG1_ID<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ED_DELETED_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ED_ENABLED_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EXT_SYS_SYNC_MSG<?if ("VARCHAR2(250)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EXT_SYS_SYNC_TS<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEO_ACCURACY_CODE<?if ("VARCHAR2(10)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEO_ACCURACY_MSG<?if ("VARCHAR2(255)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEO_ACCURACY_VAL<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEOCD_FAIL_DESC<?if ("VARCHAR2(250)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEOCD_VALID_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEOCODE_STATUS_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GEOGRAPHY_CODE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NEIGHBORHOOD_NAME<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SYNC_SUCCESS_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	VERIFICATION_CODE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	VERIFIED_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	VERIFY_STATUS_MSG<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>
+)
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9c63b7fa-5be7-4396-8942-da299d426c0c]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[60]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Generate CTL file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[SnpsOutFile "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.sh"
+sqlldr control=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.ctl log=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.log userid=<?= odiRef.getInfo("DEST_USER_NAME") ?>/<?= odiRef.getInfo("DEST_PASS") ?>@<?= odiRef.getInfo("DEST_DSERV_NAME") ?> > #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.out  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[86980d41-4643-42db-bab2-e8e01f5314b9]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[40]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Generate sh or bat file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[sh -c "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>.sh"  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[128dde54-f55f-4eea-992b-6baef52cd8df]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[120]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[120]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Call sqlldr]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[import os as lib_os
+file_name = '#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_a1e2ec4b-cf27-4821-adfe-142dfd019cdc_<?= odiRef.getObjectName("L", "S_ADDR_PER", "EXTRACT_ETL_ORACLE", "D") ?>'
+file_list = [file_name + '.ctl', file_name + '.dat', file_name + '.log', file_name + '.out', file_name + '.sh']
+for i in file_list:
+	if not lib_os.path.isfile(i):
+		lib_os.system('touch  ' + i)  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[B]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[285c2167-c25b-4f72-8b21-11d8c0e93dee]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1491]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[40]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Create tmp files]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PACKAGE.483]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[10c0c0b5-3b3a-4662-8c20-30db93314bef]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Vodafone BI (Pre_ETL).SIEBEL.PKG_EXT_SBL_S_ADDR_PER]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[21.6.22]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCEN.1491]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[70d94032-7e87-45d0-bad8-8f128f42b251]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Vodafone BI (Pre_ETL).SIEBEL.PKG_EXT_SBL_S_ADDR_PER.PKG_EXT_SBL_S_ADDR_PER Version 001]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE.SNP_SCEN]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[21.6.22.34]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.1491.0]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[888020cd-c6fa-44ec-bef7-073d4660c78c]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.1491.1]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[2e8d4624-71c6-4294-aa11-b48f90fa5e0a]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.1491.2]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[fb69d513-a3a1-44bd-aa39-b1849fcd014f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[37]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
