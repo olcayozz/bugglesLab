@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="Ewdb9J50xXHAQZm9yZ5k50PXacDi5vuLUnKXDVaFcaM=" keyVect="C+kWxzkPQOpWklCOyd3ZEg==" exportKeySalt="e681604f-9588-4369-8e6e-666083fdf2c8" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpScen">
+		<Field name="CecSessBehavior" type="java.lang.String">null</Field>
+	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2019-07-29 14:15:14.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[AKOCAK]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[736e654d-9271-40fa-a0ac-77fc934f3790]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndPromptParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
+	<Field name="IsMaterialized" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IPackage" type="com.sunopsis.sql.DbInt"><![CDATA[499]]></Field>
+	<Field name="IPop" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IScenFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtScen" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2019-07-29 14:25:31.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[AKOCAK]]></Field>
+	<Field name="MaxCecSess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="RepGuid" type="java.lang.String">null</Field>
+	<Field name="RepVersion" type="java.lang.String">null</Field>
+	<Field name="RestartType" type="java.lang.String">null</Field>
+	<Field name="ScenName" type="java.lang.String"><![CDATA[PKG_EXT_SBL_S_ORG_EXT]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e0b3dd4a-9cd7-44a7-a033-e05c16dbffa0]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[L]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[A]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpVarScen">
+		<Field name="DefDate" type="java.sql.Timestamp">null</Field>
+	<Field name="DefN" type="com.sunopsis.sql.DbInt"><![CDATA[20190701]]></Field>
+	<Field name="DefV" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b56d33db-b002-40b2-9adb-a9e736f5f166]]></Field>
+	<Field name="IndStore" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="ITxtDefT" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ITxtVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="VarDatatype" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_ETL_DATE]]></Field>
+	<Field name="VarParam" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="VarParamOrder" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[cc149184-b98b-4dc0-98b0-e07b024da756]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String">null</Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="ResName" type="java.lang.String">null</Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[VAR_ETL_DATE]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[VD]]></Field>
+	<Field name="TableName" type="java.lang.String">null</Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_ETL_DATE]]></Field>
+	<Field name="VarOp" type="java.lang.String"><![CDATA[=]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[f371d0f3-8bc6-43a2-97fa-3961da6b15bf]]></Field>
+	<Field name="IndErr" type="java.lang.String">null</Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String">null</Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="MapTaskType" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Variable]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[VAR_ETL_DATE]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[8e61e97f-a442-4c4b-ac70-7e099c35259f]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String">null</Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="ResName" type="java.lang.String">null</Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[V]]></Field>
+	<Field name="TableName" type="java.lang.String">null</Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String"><![CDATA[GLOBAL.VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="VarOp" type="java.lang.String"><![CDATA[=]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String">null</Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String">null</Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[ODI_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[select param_value_1
+from odi.ETL_PARAMS
+where 1=1
+  and param_name = 'SQLLDR_WORK_DIRECTORY']]></Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[801d5e03-636c-4c8d-9ba7-af9ecb36664d]]></Field>
+	<Field name="IndErr" type="java.lang.String">null</Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String">null</Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[3]]></Field>
+	<Field name="MapTaskType" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Variable]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[VAR_SQLLDR_WORK_DIRECTORY]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[V]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenStep">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="CleanupOnError" type="java.lang.String">null</Field>
+	<Field name="ContextCode" type="java.lang.String">null</Field>
+	<Field name="FContextCode" type="java.lang.String">null</Field>
+	<Field name="GenInfo" type="java.lang.String"><![CDATA[<map-generation-info>
+   <node name="SBL_S_ORG_EXT" type="IKM" km="IKM No-op.GLOBAL"/>
+   <node name="S_ORG_EXT_AP" type="LKM" km="LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE).GLOBAL">
+      <option name="CREATE_TMP_FILES" value="true" default="true"/>
+      <option name="HINT" value="" default="true"/>
+      <option name="ROW_SEPERATOR" value="\n" default="true"/>
+      <option name="TRUNCATE TARGET TABLE" value="true" default="true"/>
+      <option name="FIELD_SEPERATOR" value="~" default="true"/>
+      <option name="CMD_SHELL" value="sh -c" default="true"/>
+      <option name="WORK_DIRECTORY" value="#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY" default="true"/>
+      <option name="WINDOWS" value="false" default="true"/>
+      <option name="LOAD_DIRECT" value="TRUE" default="true"/>
+      <option name="LOAD_ERRORS" value="0" default="true"/>
+      <option name="LOAD_PARALLEL" value="TRUE" default="true"/>
+      <option name="LOAD_DISCARDMAX" value="1" default="true"/>
+      <option name="WORK_TABLE_OPTIONS" value="NOLOGGING" default="true"/>
+      <option name="DROP_WORK_TABLE" value="true" default="true"/>
+      <option name="FETCH_SIZE" value="5000" default="true"/>
+      <option name="CONCAT_ON_SOURCE" value="false" default="true"/>
+      <option name="DATE_FORMAT" value="yyyy-MM-dd" default="true"/>
+   </node>
+   <node name="S_ORG_EXT" type="XKM" km="XKM Oracle Extract.GLOBAL">
+      <option name="CUSTOM_TEMPLATE" value=" " default="true"/>
+      <option name="SELECT_HINT" value=" " default="true"/>
+   </node>
+   <target name="SBL_S_ORG_EXT" resource="SBL_S_ORG_EXT" model="MD_ORACLE_EXTRACT_ETL" logicalSchema="EXTRACT_ETL_ORACLE" forcedContext=""/>
+</map-generation-info>]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[23d8dc0f-f13a-48ae-826d-12ca203ff90f]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
+	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
+	<Field name="KoExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="KoExitCode" type="java.lang.String">null</Field>
+	<Field name="KoNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetry" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="KoRetryInterv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="MaxErr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="MaxErrPrct" type="java.lang.String">null</Field>
+	<Field name="ModCode" type="java.lang.String">null</Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OkExit" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="OkExitCode" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="OkNextStep" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ResName" type="java.lang.String">null</Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="StepName" type="java.lang.String"><![CDATA[EXT_SBL_S_ORG_EXT]]></Field>
+	<Field name="StepType" type="java.lang.String"><![CDATA[M]]></Field>
+	<Field name="TableName" type="java.lang.String">null</Field>
+	<Field name="VarIncr" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VarLongValue" type="java.lang.String">null</Field>
+	<Field name="VarName" type="java.lang.String">null</Field>
+	<Field name="VarOp" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c34e3b22-b7a7-44e2-8aad-ffb1e773a9f7]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[MAP_MAIN]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[67d7a325-d8cc-41a7-8d75-fb5cfb397fd6]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[EU]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[SIEBEL_ORACLE_UNIT]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ODI.TRUNC_TABLE('<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>')  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[dcd635e5-f285-41cd-a41e-d2109a1ac37f]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Truncate target table]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiOutFile "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/chk_data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.sh"
+FILE=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.dat
+if [ -s "$FILE" ]; then 
+echo "$FILE has data"
+exit 0; 
+else 
+echo "$FILE is empty"
+exit 0;fi 
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[54ce0a24-aea7-4f36-ad24-dd28189c9145]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[130]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[130]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Check if file empty]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 777 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/chk_data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.sh  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2ff27017-8dd3-4117-bcda-f8d8b2c57a0e]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[140]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[140]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[chmod]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 755 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.sh
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c0d1944b-165e-4955-96b8-60daf965a629]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Apply permissions to sh file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 755 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.ctl
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c593aaef-19fe-4830-9563-2df65d604393]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[100]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Apply permissions to ctl]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[OdiSqlUnload "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.dat" "-driver=<?= odiRef.getInfo("SRC_JAVA_DRIVER") ?>" "-URL=<?= odiRef.getInfo("SRC_JAVA_URL") ?>" -user=<?= odiRef.getInfo("SRC_USER_NAME") ?> -pass=<?= odiRef.getInfo("SRC_ENCODED_PASS") ?> -file_format=variable -charset_encoding=ISO8859_9 "-row_sep=\n" "-date_format=" -fetch_size=5000 "-field_sep=~"
+select 	 
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ROW_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ROW_ID<?}?> AS ROW_ID,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CREATED,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CREATED<?}?> AS CREATED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CREATED_BY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CREATED_BY<?}?> AS CREATED_BY,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LAST_UPD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LAST_UPD<?}?> AS LAST_UPD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LAST_UPD_BY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LAST_UPD_BY<?}?> AS LAST_UPD_BY,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DCKING_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DCKING_NUM<?}?> AS DCKING_NUM,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MODIFICATION_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MODIFICATION_NUM<?}?> AS MODIFICATION_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CONFLICT_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CONFLICT_ID<?}?> AS CONFLICT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAR_ROW_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAR_ROW_ID<?}?> AS PAR_ROW_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ACCNT_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ACCNT_FLG<?}?> AS ACCNT_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ACTIVE_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ACTIVE_FLG<?}?> AS ACTIVE_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BUYING_GROUP_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BUYING_GROUP_FLG<?}?> AS BUYING_GROUP_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BU_ID<?}?> AS BU_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_DEDN_AUTH_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_DEDN_AUTH_FLG<?}?> AS CG_DEDN_AUTH_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SVP_A_LOCK_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SVP_A_LOCK_FLG<?}?> AS CG_SVP_A_LOCK_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SVP_LOCK_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SVP_LOCK_FLG<?}?> AS CG_SVP_LOCK_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SVP_SKIP_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SVP_SKIP_FLG<?}?> AS CG_SVP_SKIP_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CL_SITE_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CL_SITE_FLG<?}?> AS CL_SITE_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CONTRACT_VIS_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CONTRACT_VIS_FLG<?}?> AS CONTRACT_VIS_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.COURT_PAY_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.COURT_PAY_FLG<?}?> AS COURT_PAY_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DISA_CLEANSE_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DISA_CLEANSE_FLG<?}?> AS DISA_CLEANSE_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EVT_LOC_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EVT_LOC_FLG<?}?> AS EVT_LOC_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FCST_ORG_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FCST_ORG_FLG<?}?> AS FCST_ORG_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FUND_ELIG_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FUND_ELIG_FLG<?}?> AS FUND_ELIG_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.GOOD_STANDING_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.GOOD_STANDING_FLG<?}?> AS GOOD_STANDING_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.INCL_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.INCL_FLG<?}?> AS INCL_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.INT_ORG_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.INT_ORG_FLG<?}?> AS INT_ORG_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.NAME<?}?> AS NAME,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PLAN_GROUP_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PLAN_GROUP_FLG<?}?> AS PLAN_GROUP_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PROSPECT_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PROSPECT_FLG<?}?> AS PROSPECT_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_FLG<?}?> AS PRTNR_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_PUBLISH_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_PUBLISH_FLG<?}?> AS PRTNR_PUBLISH_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.RPLCD_WTH_CMPT_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.RPLCD_WTH_CMPT_FLG<?}?> AS RPLCD_WTH_CMPT_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SKIP_PO_CRDCHK_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SKIP_PO_CRDCHK_FLG<?}?> AS SKIP_PO_CRDCHK_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AGENCY_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AGENCY_FLG<?}?> AS AGENCY_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BRANCH_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BRANCH_FLG<?}?> AS BRANCH_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BRIEFING_LAYOUT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BRIEFING_LAYOUT<?}?> AS BRIEFING_LAYOUT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CLIENT_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CLIENT_FLG<?}?> AS CLIENT_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ENTERPRISE_FLAG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ENTERPRISE_FLAG<?}?> AS ENTERPRISE_FLAG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FACILITY_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FACILITY_FLG<?}?> AS FACILITY_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.INVSTR_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.INVSTR_FLG<?}?> AS INVSTR_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LANG_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LANG_ID<?}?> AS LANG_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_REP_DNRM_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_REP_DNRM_FLG<?}?> AS PR_REP_DNRM_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_REP_MANL_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_REP_MANL_FLG<?}?> AS PR_REP_MANL_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_REP_SYS_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_REP_SYS_FLG<?}?> AS PR_REP_SYS_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AGENCY_INACTIVE_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AGENCY_INACTIVE_DT<?}?> AS AGENCY_INACTIVE_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ASGN_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ASGN_DT<?}?> AS ASGN_DT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ASGN_USR_EXCLD_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ASGN_USR_EXCLD_FLG<?}?> AS ASGN_USR_EXCLD_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ASSET_AMT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ASSET_AMT<?}?> AS ASSET_AMT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ATM_COUNT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ATM_COUNT<?}?> AS ATM_COUNT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AVAIL_CREDIT_AMT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AVAIL_CREDIT_AMT<?}?> AS AVAIL_CREDIT_AMT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BILL_PBLSHR_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BILL_PBLSHR_FLG<?}?> AS BILL_PBLSHR_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BO_ORDQRY_END_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BO_ORDQRY_END_DT<?}?> AS BO_ORDQRY_END_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BO_ORDQRY_START_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BO_ORDQRY_START_DT<?}?> AS BO_ORDQRY_START_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_CONS_END_OFFSET,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_CONS_END_OFFSET<?}?> AS CG_CONS_END_OFFSET,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_CONS_STRTOFFSET,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_CONS_STRTOFFSET<?}?> AS CG_CONS_STRTOFFSET,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_PRMO_END_OFFSET,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_PRMO_END_OFFSET<?}?> AS CG_PRMO_END_OFFSET,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SHIP_END_OFFSET,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SHIP_END_OFFSET<?}?> AS CG_SHIP_END_OFFSET,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SHIP_STRTOFFSET,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SHIP_STRTOFFSET<?}?> AS CG_SHIP_STRTOFFSET,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SVP_UPPER_LOCK,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SVP_UPPER_LOCK<?}?> AS CG_SVP_UPPER_LOCK,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CHNL_ANNL_SALES,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CHNL_ANNL_SALES<?}?> AS CHNL_ANNL_SALES,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CHNL_QTR_SALES,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CHNL_QTR_SALES<?}?> AS CHNL_QTR_SALES,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CHNL_SALES_GROWTH,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CHNL_SALES_GROWTH<?}?> AS CHNL_SALES_GROWTH,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CLOSE_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CLOSE_DT<?}?> AS CLOSE_DT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CMPT_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CMPT_FLG<?}?> AS CMPT_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CREDIT_DAYS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CREDIT_DAYS<?}?> AS CREDIT_DAYS,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CREDIT_SCORE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CREDIT_SCORE<?}?> AS CREDIT_SCORE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUR_YR_BK,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUR_YR_BK<?}?> AS CUR_YR_BK,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUR_YR_BL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUR_YR_BL<?}?> AS CUR_YR_BL,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUST_END_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUST_END_DT<?}?> AS CUST_END_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUST_SINCE_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUST_SINCE_DT<?}?> AS CUST_SINCE_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DB_LAST_UPD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DB_LAST_UPD<?}?> AS DB_LAST_UPD,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DEDUP_DATACLNSD_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DEDUP_DATACLNSD_DT<?}?> AS DEDUP_DATACLNSD_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DEDUP_KEY_UPD_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DEDUP_KEY_UPD_DT<?}?> AS DEDUP_KEY_UPD_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DEDUP_LAST_MTCH_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DEDUP_LAST_MTCH_DT<?}?> AS DEDUP_LAST_MTCH_DT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DISA_ALL_MAILS_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DISA_ALL_MAILS_FLG<?}?> AS DISA_ALL_MAILS_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIVISION_COUNT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIVISION_COUNT<?}?> AS DIVISION_COUNT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EAI_SYNC_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EAI_SYNC_DT<?}?> AS EAI_SYNC_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EMP_COUNT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EMP_COUNT<?}?> AS EMP_COUNT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EVT_HOTEL_STD_RT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EVT_HOTEL_STD_RT<?}?> AS EVT_HOTEL_STD_RT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EXCH_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EXCH_DT<?}?> AS EXCH_DT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FUL_CENTER_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FUL_CENTER_FLG<?}?> AS FUL_CENTER_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.GSA_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.GSA_FLG<?}?> AS GSA_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HARD_TO_REACH,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HARD_TO_REACH<?}?> AS HARD_TO_REACH,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HIST_SLS_EXCH_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HIST_SLS_EXCH_DT<?}?> AS HIST_SLS_EXCH_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HIST_SLS_VOL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HIST_SLS_VOL<?}?> AS HIST_SLS_VOL,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLDHD_AGE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLDHD_AGE<?}?> AS HSHLDHD_AGE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLD_INC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLD_INC<?}?> AS HSHLD_INC,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLD_KIDAGE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLD_KIDAGE<?}?> AS HSHLD_KIDAGE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLD_KIDS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLD_KIDS<?}?> AS HSHLD_KIDS,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLD_SIZE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLD_SIZE<?}?> AS HSHLD_SIZE,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LAST_CALL_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LAST_CALL_DT<?}?> AS LAST_CALL_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LAST_MGR_REVW_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LAST_MGR_REVW_DT<?}?> AS LAST_MGR_REVW_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LATITUDE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LATITUDE<?}?> AS LATITUDE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LONGITUDE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LONGITUDE<?}?> AS LONGITUDE,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MISC_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MISC_FLG<?}?> AS MISC_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.NUM_HSHLDS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.NUM_HSHLDS<?}?> AS NUM_HSHLDS,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.NUM_OF_BEDS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.NUM_OF_BEDS<?}?> AS NUM_OF_BEDS,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.NUM_REGS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.NUM_REGS<?}?> AS NUM_REGS,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ORI_TS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ORI_TS<?}?> AS ORI_TS,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PARTNER_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PARTNER_FLG<?}?> AS PARTNER_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PO_CRDCHK_THRSH,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PO_CRDCHK_THRSH<?}?> AS PO_CRDCHK_THRSH,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PO_CRDCHK_THRSH_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PO_CRDCHK_THRSH_DT<?}?> AS PO_CRDCHK_THRSH_DT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PO_PAY_EXCH_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PO_PAY_EXCH_DT<?}?> AS PO_PAY_EXCH_DT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PO_PAY_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PO_PAY_FLG<?}?> AS PO_PAY_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PO_PAY_MAX_AMT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PO_PAY_MAX_AMT<?}?> AS PO_PAY_MAX_AMT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRI_YR_BK,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRI_YR_BK<?}?> AS PRI_YR_BK,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRI_YR_BL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRI_YR_BL<?}?> AS PRI_YR_BL,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PROCED_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PROCED_FLG<?}?> AS PROCED_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNRSHP_START_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNRSHP_START_DT<?}?> AS PRTNRSHP_START_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_SALES_RANK,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_SALES_RANK<?}?> AS PRTNR_SALES_RANK,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PTNTL_SLS_EXCH_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PTNTL_SLS_EXCH_DT<?}?> AS PTNTL_SLS_EXCH_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PTNTL_SLS_VOL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PTNTL_SLS_VOL<?}?> AS PTNTL_SLS_VOL,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REFERENCE_CUST_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REFERENCE_CUST_FLG<?}?> AS REFERENCE_CUST_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REFERENCE_START_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REFERENCE_START_DT<?}?> AS REFERENCE_START_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SALES_EMP_CNT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SALES_EMP_CNT<?}?> AS SALES_EMP_CNT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SERVICE_EMP_CNT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SERVICE_EMP_CNT<?}?> AS SERVICE_EMP_CNT,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SRV_PROVDR_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SRV_PROVDR_FLG<?}?> AS SRV_PROVDR_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.STAT_CHG_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.STAT_CHG_DT<?}?> AS STAT_CHG_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.STORE_SIZE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.STORE_SIZE<?}?> AS STORE_SIZE,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SUPPRESS_SHARE_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SUPPRESS_SHARE_FLG<?}?> AS SUPPRESS_SHARE_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SUPRESS_CALL_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SUPRESS_CALL_FLG<?}?> AS SUPRESS_CALL_FLG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TAX_EXEMPT_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TAX_EXEMPT_FLG<?}?> AS TAX_EXEMPT_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TRGT_IMPL_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TRGT_IMPL_DT<?}?> AS TRGT_IMPL_DT,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.VISIT_FREQUENCY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.VISIT_FREQUENCY<?}?> AS VISIT_FREQUENCY,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.WEEKLY_ACV,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.WEEKLY_ACV<?}?> AS WEEKLY_ACV,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ABA_NUMBER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ABA_NUMBER<?}?> AS ABA_NUMBER,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ACCNT_PR_CMPT_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ACCNT_PR_CMPT_ID<?}?> AS ACCNT_PR_CMPT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ACCNT_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ACCNT_TYPE_CD<?}?> AS ACCNT_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ADL_STATUS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ADL_STATUS<?}?> AS ADL_STATUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AGENCY_INDICATOR,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AGENCY_INDICATOR<?}?> AS AGENCY_INDICATOR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AGENCY_NIBRS_IND,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AGENCY_NIBRS_IND<?}?> AS AGENCY_NIBRS_IND,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AIA_INTEG_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AIA_INTEG_ID<?}?> AS AIA_INTEG_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ALIAS_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ALIAS_NAME<?}?> AS ALIAS_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ALT_EMAIL_ADDR,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ALT_EMAIL_ADDR<?}?> AS ALT_EMAIL_ADDR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ALT_EMAIL_LOC_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ALT_EMAIL_LOC_CD<?}?> AS ALT_EMAIL_LOC_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ANS_SRVC_PH_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ANS_SRVC_PH_NUM<?}?> AS ANS_SRVC_PH_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.APPROVAL_STATUS_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.APPROVAL_STATUS_CD<?}?> AS APPROVAL_STATUS_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ASGN_PH_AC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ASGN_PH_AC<?}?> AS ASGN_PH_AC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ASGN_PH_CC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ASGN_PH_CC<?}?> AS ASGN_PH_CC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BASE_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BASE_CURCY_CD<?}?> AS BASE_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BO_CUST_GRP_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BO_CUST_GRP_CD<?}?> AS BO_CUST_GRP_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BRANCH_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BRANCH_TYPE_CD<?}?> AS BRANCH_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CALL_FREQUENCY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CALL_FREQUENCY<?}?> AS CALL_FREQUENCY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CC_TXNPROC_AC_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CC_TXNPROC_AC_NUM<?}?> AS CC_TXNPROC_AC_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CC_TXNPROC_VNDR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CC_TXNPROC_VNDR_ID<?}?> AS CC_TXNPROC_VNDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_PRMO_STRT_DAY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_PRMO_STRT_DAY<?}?> AS CG_PRMO_STRT_DAY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CG_SVP_STATUS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CG_SVP_STATUS<?}?> AS CG_SVP_STATUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CHANNEL_TYPE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CHANNEL_TYPE<?}?> AS CHANNEL_TYPE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CMPNY_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CMPNY_NAME<?}?> AS CMPNY_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CORE_CITY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CORE_CITY_CD<?}?> AS CORE_CITY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CORP_CMPNY_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CORP_CMPNY_NAME<?}?> AS CORP_CMPNY_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CORP_STOCK_SYMBOL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CORP_STOCK_SYMBOL<?}?> AS CORP_STOCK_SYMBOL,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.COUNTRY_DIVISION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.COUNTRY_DIVISION<?}?> AS COUNTRY_DIVISION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.COUNTRY_REGION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.COUNTRY_REGION<?}?> AS COUNTRY_REGION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.COUNTRY_TEMPLATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.COUNTRY_TEMPLATE<?}?> AS COUNTRY_TEMPLATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.COVERED_BY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.COVERED_BY<?}?> AS COVERED_BY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CREATOR_LOGIN,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CREATOR_LOGIN<?}?> AS CREATOR_LOGIN,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CROSS_STREET,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CROSS_STREET<?}?> AS CROSS_STREET,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CURR_PRI_LST_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CURR_PRI_LST_ID<?}?> AS CURR_PRI_LST_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CURR_RATE_LST_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CURR_RATE_LST_ID<?}?> AS CURR_RATE_LST_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUR_SRV_ADDR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUR_SRV_ADDR_ID<?}?> AS CUR_SRV_ADDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUR_YR_BK_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUR_YR_BK_CURCY_CD<?}?> AS CUR_YR_BK_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUR_YR_BL_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUR_YR_BL_CURCY_CD<?}?> AS CUR_YR_BL_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.CUST_STAT_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.CUST_STAT_CD<?}?> AS CUST_STAT_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DB_LAST_UPD_SRC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DB_LAST_UPD_SRC<?}?> AS DB_LAST_UPD_SRC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DEDUP_TOKEN,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DEDUP_TOKEN<?}?> AS DEDUP_TOKEN,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DEPT_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DEPT_NUM<?}?> AS DEPT_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DESC_TEXT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DESC_TEXT<?}?> AS DESC_TEXT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DFLT_SHIP_PRIO_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DFLT_SHIP_PRIO_CD<?}?> AS DFLT_SHIP_PRIO_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIST_CHANNEL_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIST_CHANNEL_CD<?}?> AS DIST_CHANNEL_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIVISION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIVISION<?}?> AS DIVISION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIVN_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIVN_CD<?}?> AS DIVN_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIVN_TERR_HIER_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIVN_TERR_HIER_ID<?}?> AS DIVN_TERR_HIER_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIVN_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIVN_TYPE_CD<?}?> AS DIVN_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DOM_ULT_DUNS_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DOM_ULT_DUNS_NUM<?}?> AS DOM_ULT_DUNS_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DUNS_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DUNS_NUM<?}?> AS DUNS_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EAI_ERROR_TEXT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EAI_ERROR_TEXT<?}?> AS EAI_ERROR_TEXT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EAI_EXPRT_STAT_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EAI_EXPRT_STAT_CD<?}?> AS EAI_EXPRT_STAT_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EMAIL_ADDR,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EMAIL_ADDR<?}?> AS EMAIL_ADDR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EMAIL_LOC_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EMAIL_LOC_CD<?}?> AS EMAIL_LOC_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EVT_LOC_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EVT_LOC_CD<?}?> AS EVT_LOC_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EXEC_SPNSR_PSTN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EXEC_SPNSR_PSTN_ID<?}?> AS EXEC_SPNSR_PSTN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EXPERTISE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EXPERTISE_CD<?}?> AS EXPERTISE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FBI_FIELD_OFF_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FBI_FIELD_OFF_ID<?}?> AS FBI_FIELD_OFF_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FIN_RESP_CON_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FIN_RESP_CON_ID<?}?> AS FIN_RESP_CON_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FRD_OWNER_EMP_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FRD_OWNER_EMP_ID<?}?> AS FRD_OWNER_EMP_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FRGHT_TERMS_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FRGHT_TERMS_CD<?}?> AS FRGHT_TERMS_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FRGHT_TERMS_INFO,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FRGHT_TERMS_INFO<?}?> AS FRGHT_TERMS_INFO,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.FURI_CMPNY_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.FURI_CMPNY_NAME<?}?> AS FURI_CMPNY_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.GENERAL_LEDGER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.GENERAL_LEDGER<?}?> AS GENERAL_LEDGER,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.GLBLULT_DUNS_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.GLBLULT_DUNS_NUM<?}?> AS GLBLULT_DUNS_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.GRWTH_STRTGY_DESC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.GRWTH_STRTGY_DESC<?}?> AS GRWTH_STRTGY_DESC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HIST_SLS_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HIST_SLS_CURCY_CD<?}?> AS HIST_SLS_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLDHD_GEN_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLDHD_GEN_CD<?}?> AS HSHLDHD_GEN_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLDHD_OCC_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLDHD_OCC_CD<?}?> AS HSHLDHD_OCC_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLD_ETHN_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLD_ETHN_CD<?}?> AS HSHLD_ETHN_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.HSHLD_LOC_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.HSHLD_LOC_CD<?}?> AS HSHLD_LOC_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.IMPL_DESC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.IMPL_DESC<?}?> AS IMPL_DESC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.IMPL_STAGE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.IMPL_STAGE_CD<?}?> AS IMPL_STAGE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.INTEGRATION_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.INTEGRATION_ID<?}?> AS INTEGRATION_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.JUDICIAL_DISTRICT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.JUDICIAL_DISTRICT<?}?> AS JUDICIAL_DISTRICT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LAST_REVW_MGR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LAST_REVW_MGR_ID<?}?> AS LAST_REVW_MGR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LEGAL_FORM_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LEGAL_FORM_CD<?}?> AS LEGAL_FORM_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LOC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LOC<?}?> AS LOC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LOCATION_LEVEL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LOCATION_LEVEL<?}?> AS LOCATION_LEVEL,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.LOY_PARTNER_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.LOY_PARTNER_CD<?}?> AS LOY_PARTNER_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MAIN_EMAIL_ADDR,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MAIN_EMAIL_ADDR<?}?> AS MAIN_EMAIL_ADDR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MAIN_FAX_PH_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MAIN_FAX_PH_NUM<?}?> AS MAIN_FAX_PH_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MAIN_PH_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MAIN_PH_NUM<?}?> AS MAIN_PH_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MANAGER_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MANAGER_NAME<?}?> AS MANAGER_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MARKET_CLASS_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MARKET_CLASS_CD<?}?> AS MARKET_CLASS_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MARKET_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MARKET_TYPE_CD<?}?> AS MARKET_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.MASTER_OU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.MASTER_OU_ID<?}?> AS MASTER_OU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.NAME_1,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.NAME_1<?}?> AS NAME_1,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ORI_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ORI_CD<?}?> AS ORI_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.OU_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.OU_NUM<?}?> AS OU_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.OU_NUM_1,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.OU_NUM_1<?}?> AS OU_NUM_1,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.OU_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.OU_TYPE_CD<?}?> AS OU_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.OWNERSHIP_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.OWNERSHIP_TYPE_CD<?}?> AS OWNERSHIP_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAR_BU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAR_BU_ID<?}?> AS PAR_BU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAR_DIVN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAR_DIVN_ID<?}?> AS PAR_DIVN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAR_DUNS_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAR_DUNS_NUM<?}?> AS PAR_DUNS_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAR_OU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAR_OU_ID<?}?> AS PAR_OU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PASSWORD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PASSWORD<?}?> AS PASSWORD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAYMENT_TERM_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAYMENT_TERM_ID<?}?> AS PAYMENT_TERM_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PAY_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PAY_TYPE_CD<?}?> AS PAY_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.POPULATION_GRP_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.POPULATION_GRP_CD<?}?> AS POPULATION_GRP_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PO_PAY_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PO_PAY_CURCY_CD<?}?> AS PO_PAY_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PREF_CARR_PRIO_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PREF_CARR_PRIO_CD<?}?> AS PREF_CARR_PRIO_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PREF_COMM_METH_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PREF_COMM_METH_CD<?}?> AS PREF_COMM_METH_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PREF_SHIP_CARR_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PREF_SHIP_CARR_CD<?}?> AS PREF_SHIP_CARR_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRIVACY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRIVACY_CD<?}?> AS PRIVACY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRI_GRP_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRI_GRP_CD<?}?> AS PRI_GRP_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRI_YR_BK_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRI_YR_BK_CURCY_CD<?}?> AS PRI_YR_BK_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRI_YR_BL_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRI_YR_BL_CURCY_CD<?}?> AS PRI_YR_BL_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PROD_DIST_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PROD_DIST_CD<?}?> AS PROD_DIST_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_CERT_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_CERT_CD<?}?> AS PRTNR_CERT_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_ORG_INT_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_ORG_INT_ID<?}?> AS PRTNR_ORG_INT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_TYPE_CD<?}?> AS PRTNR_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_ADDR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_ADDR_ID<?}?> AS PR_ADDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_ADDR_PER_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_ADDR_PER_ID<?}?> AS PR_ADDR_PER_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_AGREE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_AGREE_ID<?}?> AS PR_AGREE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_BILL_PRFL_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_BILL_PRFL_ID<?}?> AS PR_BILL_PRFL_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_BL_ADDR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_BL_ADDR_ID<?}?> AS PR_BL_ADDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_BL_OU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_BL_OU_ID<?}?> AS PR_BL_OU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_BL_PER_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_BL_PER_ID<?}?> AS PR_BL_PER_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_COMPETITOR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_COMPETITOR_ID<?}?> AS PR_COMPETITOR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_CON_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_CON_ID<?}?> AS PR_CON_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_CO_MSTR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_CO_MSTR_ID<?}?> AS PR_CO_MSTR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_CRDT_AREA_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_CRDT_AREA_ID<?}?> AS PR_CRDT_AREA_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_DISCNT_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_DISCNT_ID<?}?> AS PR_DISCNT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_EAI_SLS_AREA_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_EAI_SLS_AREA_ID<?}?> AS PR_EAI_SLS_AREA_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_EMP_REL_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_EMP_REL_ID<?}?> AS PR_EMP_REL_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_EMP_TERR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_EMP_TERR_ID<?}?> AS PR_EMP_TERR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_FULFL_INVLOC_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_FULFL_INVLOC_ID<?}?> AS PR_FULFL_INVLOC_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_GEO_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_GEO_ID<?}?> AS PR_GEO_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_IMPLSVC_VNDR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_IMPLSVC_VNDR_ID<?}?> AS PR_IMPLSVC_VNDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_INDUST_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_INDUST_ID<?}?> AS PR_INDUST_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_LOGO_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_LOGO_ID<?}?> AS PR_LOGO_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_MED_PROC_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_MED_PROC_ID<?}?> AS PR_MED_PROC_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_MGR_POSTN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_MGR_POSTN_ID<?}?> AS PR_MGR_POSTN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_MKT_SEG_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_MKT_SEG_ID<?}?> AS PR_MKT_SEG_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_ORG_PAY_PRFL_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_ORG_PAY_PRFL_ID<?}?> AS PR_ORG_PAY_PRFL_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_ORG_TRGT_MKT_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_ORG_TRGT_MKT_ID<?}?> AS PR_ORG_TRGT_MKT_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_OU_TYPE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_OU_TYPE_ID<?}?> AS PR_OU_TYPE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PAY_OU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PAY_OU_ID<?}?> AS PR_PAY_OU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PHONE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PHONE_ID<?}?> AS PR_PHONE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_POSTN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_POSTN_ID<?}?> AS PR_POSTN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PRFL_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PRFL_ID<?}?> AS PR_PRFL_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PRI_LST_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PRI_LST_ID<?}?> AS PR_PRI_LST_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PROD_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PROD_ID<?}?> AS PR_PROD_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PROD_LN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PROD_LN_ID<?}?> AS PR_PROD_LN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PRTNR_OU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PRTNR_OU_ID<?}?> AS PR_PRTNR_OU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PRTNR_PROG_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PRTNR_PROG_ID<?}?> AS PR_PRTNR_PROG_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PRTNR_TIER_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PRTNR_TIER_ID<?}?> AS PR_PRTNR_TIER_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PRTNR_TYPE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PRTNR_TYPE_ID<?}?> AS PR_PRTNR_TYPE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_PTSHP_MKTSEG_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_PTSHP_MKTSEG_ID<?}?> AS PR_PTSHP_MKTSEG_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_REP_ASGN_TYPE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_REP_ASGN_TYPE<?}?> AS PR_REP_ASGN_TYPE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SECURITY_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SECURITY_ID<?}?> AS PR_SECURITY_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SHIP_ADDR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SHIP_ADDR_ID<?}?> AS PR_SHIP_ADDR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SHIP_OU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SHIP_OU_ID<?}?> AS PR_SHIP_OU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SHIP_PER_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SHIP_PER_ID<?}?> AS PR_SHIP_PER_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SITU_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SITU_ID<?}?> AS PR_SITU_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SPECIALTY_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SPECIALTY_ID<?}?> AS PR_SPECIALTY_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SPEC_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SPEC_ID<?}?> AS PR_SPEC_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SRV_AGREE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SRV_AGREE_ID<?}?> AS PR_SRV_AGREE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SVC_POSTN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SVC_POSTN_ID<?}?> AS PR_SVC_POSTN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SYN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SYN_ID<?}?> AS PR_SYN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_TERRITORY_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_TERRITORY_ID<?}?> AS PR_TERRITORY_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_TERR_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_TERR_ID<?}?> AS PR_TERR_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_VEHICLE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_VEHICLE_ID<?}?> AS PR_VEHICLE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PTNTL_SLS_CURCY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PTNTL_SLS_CURCY_CD<?}?> AS PTNTL_SLS_CURCY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.RATING,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.RATING<?}?> AS RATING,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REGION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REGION<?}?> AS REGION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REGION_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REGION_ID<?}?> AS REGION_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REL_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REL_ID<?}?> AS REL_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REL_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REL_NAME<?}?> AS REL_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.REVENUE_CLASS_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.REVENUE_CLASS_CD<?}?> AS REVENUE_CLASS_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.RLZD_ROI_DESC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.RLZD_ROI_DESC<?}?> AS RLZD_ROI_DESC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ROUTE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ROUTE<?}?> AS ROUTE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.RTE_TO_MKT_DESC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.RTE_TO_MKT_DESC<?}?> AS RTE_TO_MKT_DESC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.RULE_ATTRIB1,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.RULE_ATTRIB1<?}?> AS RULE_ATTRIB1,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.RULE_ATTRIB2,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.RULE_ATTRIB2<?}?> AS RULE_ATTRIB2,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SALES_ORG_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SALES_ORG_CD<?}?> AS SALES_ORG_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SLS_DIST_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SLS_DIST_CD<?}?> AS SLS_DIST_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.STAFF,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.STAFF<?}?> AS STAFF,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.STATE_ABBRE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.STATE_ABBRE_CD<?}?> AS STATE_ABBRE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.STATUS_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.STATUS_CD<?}?> AS STATUS_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.STAT_REASON_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.STAT_REASON_CD<?}?> AS STAT_REASON_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SURVEY_TYPE_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SURVEY_TYPE_CD<?}?> AS SURVEY_TYPE_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.SVC_CVRG_STAT_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.SVC_CVRG_STAT_CD<?}?> AS SVC_CVRG_STAT_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TAX_EXEMPT_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TAX_EXEMPT_NUM<?}?> AS TAX_EXEMPT_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TAX_IDEN_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TAX_IDEN_NUM<?}?> AS TAX_IDEN_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TAX_LIST_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TAX_LIST_ID<?}?> AS TAX_LIST_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TICKER_SYM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TICKER_SYM<?}?> AS TICKER_SYM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TLR_INTG_MSG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TLR_INTG_MSG<?}?> AS TLR_INTG_MSG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TLR_INTG_RET_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TLR_INTG_RET_CD<?}?> AS TLR_INTG_RET_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.URL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.URL<?}?> AS URL,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.VAT_REGN_NUM,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.VAT_REGN_NUM<?}?> AS VAT_REGN_NUM,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.VISIT_PERIOD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.VISIT_PERIOD<?}?> AS VISIT_PERIOD,
+	<?if ("LONG".equals("DATE")){?>TO_CHAR(S_ORG_EXT.DIRECTIONS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.DIRECTIONS<?}?> AS DIRECTIONS,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_AUDITABLE_C01,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_AUDITABLE_C01<?}?> AS X_AUDITABLE_C01,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_CUST_LAST_SEQ,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_CUST_LAST_SEQ<?}?> AS X_CUST_LAST_SEQ,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_CUST_ORG_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_CUST_ORG_CODE<?}?> AS X_CUST_ORG_CODE,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_FACTURABLE_C01,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_FACTURABLE_C01<?}?> AS X_FACTURABLE_C01,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_FIRST_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_FIRST_NAME<?}?> AS X_FIRST_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_INTEGRATION_STATUS_V30,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_INTEGRATION_STATUS_V30<?}?> AS X_INTEGRATION_STATUS_V30,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_PASABLE_A_COBROS_C01,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_PASABLE_A_COBROS_C01<?}?> AS X_PASABLE_A_COBROS_C01,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_SEGMENTO_V30,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_SEGMENTO_V30<?}?> AS X_SEGMENTO_V30,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_SOURCE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_SOURCE<?}?> AS X_SOURCE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_SOURCE_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_SOURCE_CODE<?}?> AS X_SOURCE_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_STATUS_V30,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_STATUS_V30<?}?> AS X_STATUS_V30,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_SUBSEGMENTO_V30,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_SUBSEGMENTO_V30<?}?> AS X_SUBSEGMENTO_V30,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_TIPO_CUENTA_C30,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_TIPO_CUENTA_C30<?}?> AS X_TIPO_CUENTA_C30,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_VER_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_VER_CODE<?}?> AS X_VF_BG_VER_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_CUST_STAT_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_CUST_STAT_CD<?}?> AS X_VF_CUST_STAT_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_CUSTOMER_TAX_CITY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_CUSTOMER_TAX_CITY<?}?> AS X_VF_CUSTOMER_TAX_CITY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_ROOT_TRANSACTION_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_ROOT_TRANSACTION_ID<?}?> AS X_VF_ROOT_TRANSACTION_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_TAX_NUMBER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_TAX_NUMBER<?}?> AS X_VF_TAX_NUMBER,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_TAX_OFFICE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_TAX_OFFICE<?}?> AS X_VF_TAX_OFFICE,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_ACTIVE_CONSTRAIN,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_ACTIVE_CONSTRAIN<?}?> AS X_ACTIVE_CONSTRAIN,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_DUNNING_STEP,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_DUNNING_STEP<?}?> AS X_DUNNING_STEP,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_GIB_ACCOUNT_STATUS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_GIB_ACCOUNT_STATUS<?}?> AS X_GIB_ACCOUNT_STATUS,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_GIB_COUNTER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_GIB_COUNTER<?}?> AS X_GIB_COUNTER,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_GIB_FLAG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_GIB_FLAG<?}?> AS X_GIB_FLAG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_GIB_VER_REASON,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_GIB_VER_REASON<?}?> AS X_GIB_VER_REASON,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_LAST_VER_DATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_LAST_VER_DATE<?}?> AS X_LAST_VER_DATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_MIGR_RUN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_MIGR_RUN_ID<?}?> AS X_MIGR_RUN_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_OLD_FUL_CENTER_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_OLD_FUL_CENTER_FLG<?}?> AS X_OLD_FUL_CENTER_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_OLD_NAME,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_OLD_NAME<?}?> AS X_OLD_NAME,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_OLD_TAX_NUMBER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_OLD_TAX_NUMBER<?}?> AS X_OLD_TAX_NUMBER,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_OLD_TAX_OFFICE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_OLD_TAX_OFFICE<?}?> AS X_OLD_TAX_OFFICE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_PREV_RUN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_PREV_RUN_ID<?}?> AS X_PREV_RUN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_REG_NUMBER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_REG_NUMBER<?}?> AS X_REG_NUMBER,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_TOTAL_DUE_AMOUNT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_TOTAL_DUE_AMOUNT<?}?> AS X_TOTAL_DUE_AMOUNT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_ACTION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_ACTION<?}?> AS X_VF_BG_ACTION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_INQ_VER_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_INQ_VER_CODE<?}?> AS X_VF_BG_INQ_VER_CODE,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_INQ_VER_DATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_INQ_VER_DATE<?}?> AS X_VF_BG_INQ_VER_DATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_INQ_VER_DESC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_INQ_VER_DESC<?}?> AS X_VF_BG_INQ_VER_DESC,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_LIST,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_LIST<?}?> AS X_VF_BG_LIST,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_VER_DATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_VER_DATE<?}?> AS X_VF_BG_VER_DATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BG_VER_DESC,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BG_VER_DESC<?}?> AS X_VF_BG_VER_DESC,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_MERNIS_COUNTER,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_MERNIS_COUNTER<?}?> AS X_VF_MERNIS_COUNTER,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_OLD_CITY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_OLD_CITY<?}?> AS X_VF_OLD_CITY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VG_GIB_VER_STATUS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VG_GIB_VER_STATUS<?}?> AS X_VG_GIB_VER_STATUS,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_YTS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_YTS<?}?> AS X_YTS,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_GIB_DETAILED_DATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_GIB_DETAILED_DATE<?}?> AS X_GIB_DETAILED_DATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_GIB_TAX_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_GIB_TAX_ID<?}?> AS X_GIB_TAX_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_TK_NOT_NUM_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_TK_NOT_NUM_FLG<?}?> AS X_VF_TK_NOT_NUM_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_JOKER_ACTIVATED,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_JOKER_ACTIVATED<?}?> AS X_VF_JOKER_ACTIVATED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_JOKER_REQUESTED,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_JOKER_REQUESTED<?}?> AS X_VF_JOKER_REQUESTED,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_JOKER_TOT_POINT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_JOKER_TOT_POINT<?}?> AS X_VF_JOKER_TOT_POINT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_BACK_OFFICE_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_BACK_OFFICE_FLG<?}?> AS X_VF_BACK_OFFICE_FLG,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_UNPAID_AMT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_UNPAID_AMT<?}?> AS X_VF_UNPAID_AMT,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_UNPAID_AMT_LAST_UPD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_UNPAID_AMT_LAST_UPD<?}?> AS X_VF_UNPAID_AMT_LAST_UPD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_CAMP_ACTIVE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_CAMP_ACTIVE<?}?> AS X_VF_CAMP_ACTIVE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_CURRENT_VALUE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_CURRENT_VALUE<?}?> AS X_VF_CURRENT_VALUE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_DUNNING_EXEMPT_FLAG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_DUNNING_EXEMPT_FLAG<?}?> AS X_VF_DUNNING_EXEMPT_FLAG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_FRAUD_FLAG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_FRAUD_FLAG<?}?> AS X_VF_FRAUD_FLAG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_GIVEN_VALUE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_GIVEN_VALUE<?}?> AS X_VF_GIVEN_VALUE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_INSTANT_VALUE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_INSTANT_VALUE<?}?> AS X_VF_INSTANT_VALUE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_MICRO_SEGMENT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_MICRO_SEGMENT<?}?> AS X_VF_MICRO_SEGMENT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_PORT_OUT_RISK_FLAG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_PORT_OUT_RISK_FLAG<?}?> AS X_VF_PORT_OUT_RISK_FLAG,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_MIGR_FLG_STATUS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_MIGR_FLG_STATUS<?}?> AS X_MIGR_FLG_STATUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_MIGR_STATUS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_MIGR_STATUS<?}?> AS X_MIGR_STATUS,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_CC_ACTION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_CC_ACTION<?}?> AS X_VF_CC_ACTION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_CHURN_SCORE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_CHURN_SCORE<?}?> AS X_VF_CHURN_SCORE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_COM_REG_NO,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_COM_REG_NO<?}?> AS X_VF_COM_REG_NO,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_FIRST_SUB_DT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_FIRST_SUB_DT<?}?> AS X_VF_FIRST_SUB_DT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_INTERNET_COST,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_INTERNET_COST<?}?> AS X_VF_INTERNET_COST,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_INVOICE_LIMIT_AGENT,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_INVOICE_LIMIT_AGENT<?}?> AS X_VF_INVOICE_LIMIT_AGENT,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_LEGACY_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_LEGACY_ID<?}?> AS X_VF_LEGACY_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_MERNIS_INQ_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_MERNIS_INQ_FLG<?}?> AS X_VF_MERNIS_INQ_FLG,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_MIGR_DATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_MIGR_DATE<?}?> AS X_VF_MIGR_DATE,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_MONTHLY_SALARY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_MONTHLY_SALARY<?}?> AS X_VF_MONTHLY_SALARY,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_MSISDN,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_MSISDN<?}?> AS X_VF_MSISDN,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_PRM_PR_POSTN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_PRM_PR_POSTN_ID<?}?> AS X_VF_PRM_PR_POSTN_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_PSTN_COST,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_PSTN_COST<?}?> AS X_VF_PSTN_COST,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_REASON,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_REASON<?}?> AS X_VF_REASON,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_SATISFACTION_LEVEL,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_SATISFACTION_LEVEL<?}?> AS X_VF_SATISFACTION_LEVEL,
+	<?if ("NUMBER".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_YEARLY_REVENUE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_YEARLY_REVENUE<?}?> AS X_VF_YEARLY_REVENUE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VIP_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VIP_CODE<?}?> AS X_VIP_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_MIGR_SUB_RUN_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_MIGR_SUB_RUN_ID<?}?> AS X_MIGR_SUB_RUN_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_SPECIAL_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_SPECIAL_FLG<?}?> AS X_VF_SPECIAL_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_USEPRIVATEDATA,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_USEPRIVATEDATA<?}?> AS X_VF_USEPRIVATEDATA,
+	<?if ("DATE".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_PRIVATEOPTDATE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_PRIVATEOPTDATE<?}?> AS X_VF_PRIVATEOPTDATE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_PRIVATEOPTUSR,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_PRIVATEOPTUSR<?}?> AS X_VF_PRIVATEOPTUSR,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.AIA_INTEG1_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.AIA_INTEG1_ID<?}?> AS AIA_INTEG1_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.BANK_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.BANK_CODE<?}?> AS BANK_CODE,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.EXTERNAL_HOST_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.EXTERNAL_HOST_FLG<?}?> AS EXTERNAL_HOST_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.IMG_SRC_PATH,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.IMG_SRC_PATH<?}?> AS IMG_SRC_PATH,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.OD_LAST_UPD_BY,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.OD_LAST_UPD_BY<?}?> AS OD_LAST_UPD_BY,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.ONDEMAND_SYNC_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.ONDEMAND_SYNC_FLG<?}?> AS ONDEMAND_SYNC_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_LABOR_RATE_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_LABOR_RATE_ID<?}?> AS PR_LABOR_RATE_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PR_SPL_RATE_LST_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PR_SPL_RATE_LST_ID<?}?> AS PR_SPL_RATE_LST_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.PRTNR_CTGRY_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.PRTNR_CTGRY_CD<?}?> AS PRTNR_CTGRY_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.TAX_GROUP_CD,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.TAX_GROUP_CD<?}?> AS TAX_GROUP_CD,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.THMBNL_IMGSRC_PATH,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.THMBNL_IMGSRC_PATH<?}?> AS THMBNL_IMGSRC_PATH,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.WTR_SWIFT_CODE,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.WTR_SWIFT_CODE<?}?> AS WTR_SWIFT_CODE,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_TELCO_OM_PUBLIC_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_TELCO_OM_PUBLIC_ID<?}?> AS X_TELCO_OM_PUBLIC_ID,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VFTRCBU_CUSTOMER_INF_ID,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VFTRCBU_CUSTOMER_INF_ID<?}?> AS X_VFTRCBU_CUSTOMER_INF_ID,
+	<?if ("CHAR".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VFTRCBU_MIGRATING_FLG,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VFTRCBU_MIGRATING_FLG<?}?> AS X_VFTRCBU_MIGRATING_FLG,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VFTRCBU_NEXT_DUNNING_ACTION,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VFTRCBU_NEXT_DUNNING_ACTION<?}?> AS X_VFTRCBU_NEXT_DUNNING_ACTION,
+	<?if ("VARCHAR2".equals("DATE")){?>TO_CHAR(S_ORG_EXT.X_VF_PERMISSONS,'yyyy-MM-dd')<?} else {?>S_ORG_EXT.X_VF_PERMISSONS<?}?> AS X_VF_PERMISSONS
+from	<?= odiRef.getObjectName("L", "S_ORG_EXT", "SIEBEL_ORACLE", "D") ?> S_ORG_EXT
+where	(1=1)
+	  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ce861f32-ebcf-4e88-9613-b86a3a708734]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Unload source data]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[SnpsOutFile "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.ctl"
+OPTIONS (
+	SKIP=0,
+	ERRORS=0,
+	DIRECT=TRUE
+	)
+LOAD DATA
+INFILE "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.dat"
+BADFILE "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.bad"
+DISCARDFILE "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.dsc"
+DISCARDMAX 1
+APPEND
+INTO TABLE <?=odiRef.getSchemaName("EXTRACT_ETL_ORACLE", "D") ?>.SBL_S_ORG_EXT 
+FIELDS TERMINATED BY '~' 
+TRAILING NULLCOLS
+(
+	ROW_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREATED<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREATED_BY<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_UPD<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_UPD_BY<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DCKING_NUM<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MODIFICATION_NUM<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CONFLICT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAR_ROW_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ACCNT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ACTIVE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BUYING_GROUP_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_DEDN_AUTH_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SVP_A_LOCK_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SVP_LOCK_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SVP_SKIP_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CL_SITE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CONTRACT_VIS_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COURT_PAY_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DISA_CLEANSE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EVT_LOC_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FCST_ORG_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FUND_ELIG_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GOOD_STANDING_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INCL_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INT_ORG_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NAME<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PLAN_GROUP_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PROSPECT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_PUBLISH_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RPLCD_WTH_CMPT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SKIP_PO_CRDCHK_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AGENCY_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BRANCH_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BRIEFING_LAYOUT<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CLIENT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ENTERPRISE_FLAG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FACILITY_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INVSTR_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LANG_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_REP_DNRM_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_REP_MANL_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_REP_SYS_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AGENCY_INACTIVE_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ASGN_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ASGN_USR_EXCLD_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ASSET_AMT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ATM_COUNT<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AVAIL_CREDIT_AMT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BILL_PBLSHR_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BO_ORDQRY_END_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BO_ORDQRY_START_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_CONS_END_OFFSET<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_CONS_STRTOFFSET<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_PRMO_END_OFFSET<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SHIP_END_OFFSET<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SHIP_STRTOFFSET<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SVP_UPPER_LOCK<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CHNL_ANNL_SALES<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CHNL_QTR_SALES<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CHNL_SALES_GROWTH<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CLOSE_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CMPT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREDIT_DAYS<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREDIT_SCORE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUR_YR_BK<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUR_YR_BL<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUST_END_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUST_SINCE_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DB_LAST_UPD<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DEDUP_DATACLNSD_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DEDUP_KEY_UPD_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DEDUP_LAST_MTCH_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DISA_ALL_MAILS_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIVISION_COUNT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EAI_SYNC_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EMP_COUNT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EVT_HOTEL_STD_RT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EXCH_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FUL_CENTER_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GSA_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HARD_TO_REACH<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HIST_SLS_EXCH_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HIST_SLS_VOL<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLDHD_AGE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLD_INC<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLD_KIDAGE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLD_KIDS<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLD_SIZE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_CALL_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_MGR_REVW_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LATITUDE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LONGITUDE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MISC_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NUM_HSHLDS<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NUM_OF_BEDS<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NUM_REGS<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ORI_TS<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PARTNER_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PO_CRDCHK_THRSH<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PO_CRDCHK_THRSH_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PO_PAY_EXCH_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PO_PAY_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PO_PAY_MAX_AMT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRI_YR_BK<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRI_YR_BL<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PROCED_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNRSHP_START_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_SALES_RANK<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PTNTL_SLS_EXCH_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PTNTL_SLS_VOL<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REFERENCE_CUST_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REFERENCE_START_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SALES_EMP_CNT<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SERVICE_EMP_CNT<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SRV_PROVDR_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STAT_CHG_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STORE_SIZE<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SUPPRESS_SHARE_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SUPRESS_CALL_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TAX_EXEMPT_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TRGT_IMPL_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	VISIT_FREQUENCY<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	WEEKLY_ACV<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ABA_NUMBER<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ACCNT_PR_CMPT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ACCNT_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ADL_STATUS<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AGENCY_INDICATOR<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AGENCY_NIBRS_IND<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AIA_INTEG_ID<?if ("VARCHAR2(150)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ALIAS_NAME<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ALT_EMAIL_ADDR<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ALT_EMAIL_LOC_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ANS_SRVC_PH_NUM<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	APPROVAL_STATUS_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ASGN_PH_AC<?if ("VARCHAR2(5)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ASGN_PH_CC<?if ("VARCHAR2(5)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BASE_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BO_CUST_GRP_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BRANCH_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CALL_FREQUENCY<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CC_TXNPROC_AC_NUM<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CC_TXNPROC_VNDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_PRMO_STRT_DAY<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CG_SVP_STATUS<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CHANNEL_TYPE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CMPNY_NAME<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CORE_CITY_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CORP_CMPNY_NAME<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CORP_STOCK_SYMBOL<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COUNTRY_DIVISION<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COUNTRY_REGION<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COUNTRY_TEMPLATE<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	COVERED_BY<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CREATOR_LOGIN<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CROSS_STREET<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CURR_PRI_LST_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CURR_RATE_LST_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUR_SRV_ADDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUR_YR_BK_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUR_YR_BL_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	CUST_STAT_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DB_LAST_UPD_SRC<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DEDUP_TOKEN<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DEPT_NUM<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DESC_TEXT<?if ("VARCHAR2(255)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DFLT_SHIP_PRIO_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIST_CHANNEL_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIVISION<?if ("VARCHAR2(25)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIVN_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIVN_TERR_HIER_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIVN_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DOM_ULT_DUNS_NUM<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DUNS_NUM<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EAI_ERROR_TEXT<?if ("VARCHAR2(2000)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EAI_EXPRT_STAT_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EMAIL_ADDR<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EMAIL_LOC_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EVT_LOC_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EXEC_SPNSR_PSTN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EXPERTISE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FBI_FIELD_OFF_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FIN_RESP_CON_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FRD_OWNER_EMP_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FRGHT_TERMS_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FRGHT_TERMS_INFO<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	FURI_CMPNY_NAME<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GENERAL_LEDGER<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GLBLULT_DUNS_NUM<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	GRWTH_STRTGY_DESC<?if ("VARCHAR2(1001)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HIST_SLS_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLDHD_GEN_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLDHD_OCC_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLD_ETHN_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	HSHLD_LOC_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	IMPL_DESC<?if ("VARCHAR2(1000)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	IMPL_STAGE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	INTEGRATION_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	JUDICIAL_DISTRICT<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LAST_REVW_MGR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LEGAL_FORM_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LOC<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LOCATION_LEVEL<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	LOY_PARTNER_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MAIN_EMAIL_ADDR<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MAIN_FAX_PH_NUM<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MAIN_PH_NUM<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MANAGER_NAME<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MARKET_CLASS_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MARKET_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	MASTER_OU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	NAME_1<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ORI_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	OU_NUM<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	OU_NUM_1<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	OU_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	OWNERSHIP_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAR_BU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAR_DIVN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAR_DUNS_NUM<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAR_OU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PASSWORD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAYMENT_TERM_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PAY_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	POPULATION_GRP_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PO_PAY_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PREF_CARR_PRIO_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PREF_COMM_METH_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PREF_SHIP_CARR_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRIVACY_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRI_GRP_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRI_YR_BK_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRI_YR_BL_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PROD_DIST_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_CERT_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_ORG_INT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_ADDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_ADDR_PER_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_AGREE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_BILL_PRFL_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_BL_ADDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_BL_OU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_BL_PER_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_COMPETITOR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_CON_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_CO_MSTR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_CRDT_AREA_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_DISCNT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_EAI_SLS_AREA_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_EMP_REL_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_EMP_TERR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_FULFL_INVLOC_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_GEO_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_IMPLSVC_VNDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_INDUST_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_LOGO_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_MED_PROC_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_MGR_POSTN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_MKT_SEG_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_ORG_PAY_PRFL_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_ORG_TRGT_MKT_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_OU_TYPE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PAY_OU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PHONE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_POSTN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PRFL_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PRI_LST_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PROD_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PROD_LN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PRTNR_OU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PRTNR_PROG_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PRTNR_TIER_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PRTNR_TYPE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_PTSHP_MKTSEG_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_REP_ASGN_TYPE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SECURITY_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SHIP_ADDR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SHIP_OU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SHIP_PER_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SITU_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SPECIALTY_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SPEC_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SRV_AGREE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SVC_POSTN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SYN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_TERRITORY_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_TERR_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_VEHICLE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PTNTL_SLS_CURCY_CD<?if ("VARCHAR2(20)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RATING<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REGION<?if ("VARCHAR2(25)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REGION_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REL_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REL_NAME<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	REVENUE_CLASS_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RLZD_ROI_DESC<?if ("VARCHAR2(250)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ROUTE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RTE_TO_MKT_DESC<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RULE_ATTRIB1<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	RULE_ATTRIB2<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SALES_ORG_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SLS_DIST_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STAFF<?if ("VARCHAR2(250)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STATE_ABBRE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STATUS_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	STAT_REASON_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SURVEY_TYPE_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	SVC_CVRG_STAT_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TAX_EXEMPT_NUM<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TAX_IDEN_NUM<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TAX_LIST_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TICKER_SYM<?if ("VARCHAR2(10)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TLR_INTG_MSG<?if ("VARCHAR2(250)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TLR_INTG_RET_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	URL<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	VAT_REGN_NUM<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	VISIT_PERIOD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	DIRECTIONS<?if ("LONG".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_AUDITABLE_C01<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_CUST_LAST_SEQ<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_CUST_ORG_CODE<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_FACTURABLE_C01<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_FIRST_NAME<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_INTEGRATION_STATUS_V30<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_PASABLE_A_COBROS_C01<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_SEGMENTO_V30<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_SOURCE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_SOURCE_CODE<?if ("VARCHAR2(10)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_STATUS_V30<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_SUBSEGMENTO_V30<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_TIPO_CUENTA_C30<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_VER_CODE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CUST_STAT_CD<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CUSTOMER_TAX_CITY<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_ROOT_TRANSACTION_ID<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_TAX_NUMBER<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_TAX_OFFICE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_ACTIVE_CONSTRAIN<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_DUNNING_STEP<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_GIB_ACCOUNT_STATUS<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_GIB_COUNTER<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_GIB_FLAG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_GIB_VER_REASON<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_LAST_VER_DATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_RUN_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_OLD_FUL_CENTER_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_OLD_NAME<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_OLD_TAX_NUMBER<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_OLD_TAX_OFFICE<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_PREV_RUN_ID<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_REG_NUMBER<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_TOTAL_DUE_AMOUNT<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_ACTION<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_INQ_VER_CODE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_INQ_VER_DATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_INQ_VER_DESC<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_LIST<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_VER_DATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BG_VER_DESC<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MERNIS_COUNTER<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_OLD_CITY<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VG_GIB_VER_STATUS<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_YTS<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_GIB_DETAILED_DATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_GIB_TAX_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_TK_NOT_NUM_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_JOKER_ACTIVATED<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_JOKER_REQUESTED<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_JOKER_TOT_POINT<?if ("VARCHAR2(100)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_BACK_OFFICE_FLG<?if ("VARCHAR2(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_UNPAID_AMT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_UNPAID_AMT_LAST_UPD<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CAMP_ACTIVE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CURRENT_VALUE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_DUNNING_EXEMPT_FLAG<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_FRAUD_FLAG<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_GIVEN_VALUE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_INSTANT_VALUE<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MICRO_SEGMENT<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PORT_OUT_RISK_FLAG<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_FLG_STATUS<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_STATUS<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CC_ACTION<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_CHURN_SCORE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_COM_REG_NO<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_FIRST_SUB_DT<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_INTERNET_COST<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_INVOICE_LIMIT_AGENT<?if ("NUMBER(22,7)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_LEGACY_ID<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MERNIS_INQ_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MIGR_DATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MONTHLY_SALARY<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_MSISDN<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PRM_PR_POSTN_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PSTN_COST<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_REASON<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_SATISFACTION_LEVEL<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_YEARLY_REVENUE<?if ("NUMBER(10,0)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VIP_CODE<?if ("VARCHAR2(5)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_MIGR_SUB_RUN_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_SPECIAL_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_USEPRIVATEDATA<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PRIVATEOPTDATE<?if ("DATE".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PRIVATEOPTUSR<?if ("VARCHAR2(60)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	AIA_INTEG1_ID<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	BANK_CODE<?if ("VARCHAR2(50)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	EXTERNAL_HOST_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	IMG_SRC_PATH<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	OD_LAST_UPD_BY<?if ("VARCHAR2(125)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	ONDEMAND_SYNC_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_LABOR_RATE_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PR_SPL_RATE_LST_ID<?if ("VARCHAR2(15)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	PRTNR_CTGRY_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	TAX_GROUP_CD<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	THMBNL_IMGSRC_PATH<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	WTR_SWIFT_CODE<?if ("VARCHAR2(40)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_TELCO_OM_PUBLIC_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VFTRCBU_CUSTOMER_INF_ID<?if ("VARCHAR2(30)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VFTRCBU_MIGRATING_FLG<?if ("CHAR(1)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VFTRCBU_NEXT_DUNNING_ACTION<?if ("VARCHAR2(500)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>,
+	X_VF_PERMISSONS<?if ("VARCHAR2(250)".equals("DATE")){?>	DATE "yyyy-MM-dd"<?}?>
+)
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[9b61cda5-7af3-4479-883b-1f73453b8e84]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[60]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Generate CTL file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[create table <?=odiRef.getSchemaName("EXTRACT_ETL_ORACLE", "D") ?>.SBL_S_ORG_EXT 
+(
+	ROW_ID	VARCHAR2(15) NULL,
+	CREATED	DATE NULL,
+	CREATED_BY	VARCHAR2(15) NULL,
+	LAST_UPD	DATE NULL,
+	LAST_UPD_BY	VARCHAR2(15) NULL,
+	DCKING_NUM	NUMBER(22,7) NULL,
+	MODIFICATION_NUM	NUMBER(10,0) NULL,
+	CONFLICT_ID	VARCHAR2(15) NULL,
+	PAR_ROW_ID	VARCHAR2(15) NULL,
+	ACCNT_FLG	CHAR(1) NULL,
+	ACTIVE_FLG	CHAR(1) NULL,
+	BUYING_GROUP_FLG	CHAR(1) NULL,
+	BU_ID	VARCHAR2(15) NULL,
+	CG_DEDN_AUTH_FLG	CHAR(1) NULL,
+	CG_SVP_A_LOCK_FLG	CHAR(1) NULL,
+	CG_SVP_LOCK_FLG	CHAR(1) NULL,
+	CG_SVP_SKIP_FLG	CHAR(1) NULL,
+	CL_SITE_FLG	CHAR(1) NULL,
+	CONTRACT_VIS_FLG	CHAR(1) NULL,
+	COURT_PAY_FLG	CHAR(1) NULL,
+	DISA_CLEANSE_FLG	CHAR(1) NULL,
+	EVT_LOC_FLG	CHAR(1) NULL,
+	FCST_ORG_FLG	CHAR(1) NULL,
+	FUND_ELIG_FLG	CHAR(1) NULL,
+	GOOD_STANDING_FLG	CHAR(1) NULL,
+	INCL_FLG	CHAR(1) NULL,
+	INT_ORG_FLG	CHAR(1) NULL,
+	NAME	VARCHAR2(100) NULL,
+	PLAN_GROUP_FLG	CHAR(1) NULL,
+	PROSPECT_FLG	CHAR(1) NULL,
+	PRTNR_FLG	CHAR(1) NULL,
+	PRTNR_PUBLISH_FLG	CHAR(1) NULL,
+	RPLCD_WTH_CMPT_FLG	CHAR(1) NULL,
+	SKIP_PO_CRDCHK_FLG	CHAR(1) NULL,
+	AGENCY_FLG	CHAR(1) NULL,
+	BRANCH_FLG	CHAR(1) NULL,
+	BRIEFING_LAYOUT	VARCHAR2(30) NULL,
+	CLIENT_FLG	CHAR(1) NULL,
+	ENTERPRISE_FLAG	CHAR(1) NULL,
+	FACILITY_FLG	CHAR(1) NULL,
+	INVSTR_FLG	CHAR(1) NULL,
+	LANG_ID	VARCHAR2(15) NULL,
+	PR_REP_DNRM_FLG	CHAR(1) NULL,
+	PR_REP_MANL_FLG	CHAR(1) NULL,
+	PR_REP_SYS_FLG	CHAR(1) NULL,
+	AGENCY_INACTIVE_DT	DATE NULL,
+	ASGN_DT	DATE NULL,
+	ASGN_USR_EXCLD_FLG	CHAR(1) NULL,
+	ASSET_AMT	NUMBER(22,7) NULL,
+	ATM_COUNT	NUMBER(10,0) NULL,
+	AVAIL_CREDIT_AMT	NUMBER(22,7) NULL,
+	BILL_PBLSHR_FLG	CHAR(1) NULL,
+	BO_ORDQRY_END_DT	DATE NULL,
+	BO_ORDQRY_START_DT	DATE NULL,
+	CG_CONS_END_OFFSET	NUMBER(22,7) NULL,
+	CG_CONS_STRTOFFSET	NUMBER(22,7) NULL,
+	CG_PRMO_END_OFFSET	NUMBER(22,7) NULL,
+	CG_SHIP_END_OFFSET	NUMBER(22,7) NULL,
+	CG_SHIP_STRTOFFSET	NUMBER(22,7) NULL,
+	CG_SVP_UPPER_LOCK	NUMBER(10,0) NULL,
+	CHNL_ANNL_SALES	NUMBER(22,7) NULL,
+	CHNL_QTR_SALES	NUMBER(22,7) NULL,
+	CHNL_SALES_GROWTH	NUMBER(22,7) NULL,
+	CLOSE_DT	DATE NULL,
+	CMPT_FLG	CHAR(1) NULL,
+	CREDIT_DAYS	NUMBER(10,0) NULL,
+	CREDIT_SCORE	NUMBER(22,7) NULL,
+	CUR_YR_BK	NUMBER(22,7) NULL,
+	CUR_YR_BL	NUMBER(22,7) NULL,
+	CUST_END_DT	DATE NULL,
+	CUST_SINCE_DT	DATE NULL,
+	DB_LAST_UPD	DATE NULL,
+	DEDUP_DATACLNSD_DT	DATE NULL,
+	DEDUP_KEY_UPD_DT	DATE NULL,
+	DEDUP_LAST_MTCH_DT	DATE NULL,
+	DISA_ALL_MAILS_FLG	CHAR(1) NULL,
+	DIVISION_COUNT	NUMBER(22,7) NULL,
+	EAI_SYNC_DT	DATE NULL,
+	EMP_COUNT	NUMBER(22,7) NULL,
+	EVT_HOTEL_STD_RT	NUMBER(22,7) NULL,
+	EXCH_DT	DATE NULL,
+	FUL_CENTER_FLG	CHAR(1) NULL,
+	GSA_FLG	CHAR(1) NULL,
+	HARD_TO_REACH	CHAR(1) NULL,
+	HIST_SLS_EXCH_DT	DATE NULL,
+	HIST_SLS_VOL	NUMBER(22,7) NULL,
+	HSHLDHD_AGE	NUMBER(22,7) NULL,
+	HSHLD_INC	NUMBER(22,7) NULL,
+	HSHLD_KIDAGE	NUMBER(22,7) NULL,
+	HSHLD_KIDS	NUMBER(22,7) NULL,
+	HSHLD_SIZE	NUMBER(22,7) NULL,
+	LAST_CALL_DT	DATE NULL,
+	LAST_MGR_REVW_DT	DATE NULL,
+	LATITUDE	NUMBER(22,7) NULL,
+	LONGITUDE	NUMBER(22,7) NULL,
+	MISC_FLG	CHAR(1) NULL,
+	NUM_HSHLDS	NUMBER(22,7) NULL,
+	NUM_OF_BEDS	NUMBER(22,7) NULL,
+	NUM_REGS	NUMBER(22,7) NULL,
+	ORI_TS	DATE NULL,
+	PARTNER_FLG	CHAR(1) NULL,
+	PO_CRDCHK_THRSH	NUMBER(22,7) NULL,
+	PO_CRDCHK_THRSH_DT	DATE NULL,
+	PO_PAY_EXCH_DT	DATE NULL,
+	PO_PAY_FLG	CHAR(1) NULL,
+	PO_PAY_MAX_AMT	NUMBER(22,7) NULL,
+	PRI_YR_BK	NUMBER(22,7) NULL,
+	PRI_YR_BL	NUMBER(22,7) NULL,
+	PROCED_FLG	CHAR(1) NULL,
+	PRTNRSHP_START_DT	DATE NULL,
+	PRTNR_SALES_RANK	NUMBER(22,7) NULL,
+	PTNTL_SLS_EXCH_DT	DATE NULL,
+	PTNTL_SLS_VOL	NUMBER(22,7) NULL,
+	REFERENCE_CUST_FLG	CHAR(1) NULL,
+	REFERENCE_START_DT	DATE NULL,
+	SALES_EMP_CNT	NUMBER(10,0) NULL,
+	SERVICE_EMP_CNT	NUMBER(10,0) NULL,
+	SRV_PROVDR_FLG	CHAR(1) NULL,
+	STAT_CHG_DT	DATE NULL,
+	STORE_SIZE	NUMBER(22,7) NULL,
+	SUPPRESS_SHARE_FLG	CHAR(1) NULL,
+	SUPRESS_CALL_FLG	CHAR(1) NULL,
+	TAX_EXEMPT_FLG	CHAR(1) NULL,
+	TRGT_IMPL_DT	DATE NULL,
+	VISIT_FREQUENCY	NUMBER(10,0) NULL,
+	WEEKLY_ACV	NUMBER(22,7) NULL,
+	ABA_NUMBER	VARCHAR2(50) NULL,
+	ACCNT_PR_CMPT_ID	VARCHAR2(15) NULL,
+	ACCNT_TYPE_CD	VARCHAR2(30) NULL,
+	ADL_STATUS	VARCHAR2(30) NULL,
+	AGENCY_INDICATOR	VARCHAR2(30) NULL,
+	AGENCY_NIBRS_IND	VARCHAR2(30) NULL,
+	AIA_INTEG_ID	VARCHAR2(150) NULL,
+	ALIAS_NAME	VARCHAR2(100) NULL,
+	ALT_EMAIL_ADDR	VARCHAR2(50) NULL,
+	ALT_EMAIL_LOC_CD	VARCHAR2(30) NULL,
+	ANS_SRVC_PH_NUM	VARCHAR2(40) NULL,
+	APPROVAL_STATUS_CD	VARCHAR2(30) NULL,
+	ASGN_PH_AC	VARCHAR2(5) NULL,
+	ASGN_PH_CC	VARCHAR2(5) NULL,
+	BASE_CURCY_CD	VARCHAR2(20) NULL,
+	BO_CUST_GRP_CD	VARCHAR2(30) NULL,
+	BRANCH_TYPE_CD	VARCHAR2(30) NULL,
+	CALL_FREQUENCY	VARCHAR2(30) NULL,
+	CC_TXNPROC_AC_NUM	VARCHAR2(30) NULL,
+	CC_TXNPROC_VNDR_ID	VARCHAR2(15) NULL,
+	CG_PRMO_STRT_DAY	VARCHAR2(15) NULL,
+	CG_SVP_STATUS	VARCHAR2(30) NULL,
+	CHANNEL_TYPE	VARCHAR2(50) NULL,
+	CMPNY_NAME	VARCHAR2(50) NULL,
+	CORE_CITY_CD	VARCHAR2(30) NULL,
+	CORP_CMPNY_NAME	VARCHAR2(50) NULL,
+	CORP_STOCK_SYMBOL	VARCHAR2(20) NULL,
+	COUNTRY_DIVISION	VARCHAR2(30) NULL,
+	COUNTRY_REGION	VARCHAR2(30) NULL,
+	COUNTRY_TEMPLATE	VARCHAR2(15) NULL,
+	COVERED_BY	VARCHAR2(15) NULL,
+	CREATOR_LOGIN	VARCHAR2(50) NULL,
+	CROSS_STREET	VARCHAR2(40) NULL,
+	CURR_PRI_LST_ID	VARCHAR2(15) NULL,
+	CURR_RATE_LST_ID	VARCHAR2(15) NULL,
+	CUR_SRV_ADDR_ID	VARCHAR2(15) NULL,
+	CUR_YR_BK_CURCY_CD	VARCHAR2(20) NULL,
+	CUR_YR_BL_CURCY_CD	VARCHAR2(20) NULL,
+	CUST_STAT_CD	VARCHAR2(30) NULL,
+	DB_LAST_UPD_SRC	VARCHAR2(50) NULL,
+	DEDUP_TOKEN	VARCHAR2(100) NULL,
+	DEPT_NUM	VARCHAR2(30) NULL,
+	DESC_TEXT	VARCHAR2(255) NULL,
+	DFLT_SHIP_PRIO_CD	VARCHAR2(30) NULL,
+	DIST_CHANNEL_CD	VARCHAR2(30) NULL,
+	DIVISION	VARCHAR2(25) NULL,
+	DIVN_CD	VARCHAR2(30) NULL,
+	DIVN_TERR_HIER_ID	VARCHAR2(15) NULL,
+	DIVN_TYPE_CD	VARCHAR2(30) NULL,
+	DOM_ULT_DUNS_NUM	VARCHAR2(15) NULL,
+	DUNS_NUM	VARCHAR2(15) NULL,
+	EAI_ERROR_TEXT	VARCHAR2(2000) NULL,
+	EAI_EXPRT_STAT_CD	VARCHAR2(30) NULL,
+	EMAIL_ADDR	VARCHAR2(50) NULL,
+	EMAIL_LOC_CD	VARCHAR2(30) NULL,
+	EVT_LOC_CD	VARCHAR2(30) NULL,
+	EXEC_SPNSR_PSTN_ID	VARCHAR2(15) NULL,
+	EXPERTISE_CD	VARCHAR2(30) NULL,
+	FBI_FIELD_OFF_ID	VARCHAR2(15) NULL,
+	FIN_RESP_CON_ID	VARCHAR2(15) NULL,
+	FRD_OWNER_EMP_ID	VARCHAR2(15) NULL,
+	FRGHT_TERMS_CD	VARCHAR2(30) NULL,
+	FRGHT_TERMS_INFO	VARCHAR2(100) NULL,
+	FURI_CMPNY_NAME	VARCHAR2(50) NULL,
+	GENERAL_LEDGER	VARCHAR2(50) NULL,
+	GLBLULT_DUNS_NUM	VARCHAR2(15) NULL,
+	GRWTH_STRTGY_DESC	VARCHAR2(1001) NULL,
+	HIST_SLS_CURCY_CD	VARCHAR2(20) NULL,
+	HSHLDHD_GEN_CD	VARCHAR2(30) NULL,
+	HSHLDHD_OCC_CD	VARCHAR2(30) NULL,
+	HSHLD_ETHN_CD	VARCHAR2(30) NULL,
+	HSHLD_LOC_CD	VARCHAR2(30) NULL,
+	IMPL_DESC	VARCHAR2(1000) NULL,
+	IMPL_STAGE_CD	VARCHAR2(30) NULL,
+	INTEGRATION_ID	VARCHAR2(30) NULL,
+	JUDICIAL_DISTRICT	VARCHAR2(30) NULL,
+	LAST_REVW_MGR_ID	VARCHAR2(15) NULL,
+	LEGAL_FORM_CD	VARCHAR2(30) NULL,
+	LOC	VARCHAR2(50) NULL,
+	LOCATION_LEVEL	VARCHAR2(30) NULL,
+	LOY_PARTNER_CD	VARCHAR2(30) NULL,
+	MAIN_EMAIL_ADDR	VARCHAR2(50) NULL,
+	MAIN_FAX_PH_NUM	VARCHAR2(40) NULL,
+	MAIN_PH_NUM	VARCHAR2(40) NULL,
+	MANAGER_NAME	VARCHAR2(40) NULL,
+	MARKET_CLASS_CD	VARCHAR2(30) NULL,
+	MARKET_TYPE_CD	VARCHAR2(30) NULL,
+	MASTER_OU_ID	VARCHAR2(15) NULL,
+	NAME_1	VARCHAR2(100) NULL,
+	ORI_CD	VARCHAR2(30) NULL,
+	OU_NUM	VARCHAR2(30) NULL,
+	OU_NUM_1	VARCHAR2(30) NULL,
+	OU_TYPE_CD	VARCHAR2(30) NULL,
+	OWNERSHIP_TYPE_CD	VARCHAR2(30) NULL,
+	PAR_BU_ID	VARCHAR2(15) NULL,
+	PAR_DIVN_ID	VARCHAR2(15) NULL,
+	PAR_DUNS_NUM	VARCHAR2(15) NULL,
+	PAR_OU_ID	VARCHAR2(15) NULL,
+	PASSWORD	VARCHAR2(20) NULL,
+	PAYMENT_TERM_ID	VARCHAR2(15) NULL,
+	PAY_TYPE_CD	VARCHAR2(30) NULL,
+	POPULATION_GRP_CD	VARCHAR2(30) NULL,
+	PO_PAY_CURCY_CD	VARCHAR2(20) NULL,
+	PREF_CARR_PRIO_CD	VARCHAR2(30) NULL,
+	PREF_COMM_METH_CD	VARCHAR2(30) NULL,
+	PREF_SHIP_CARR_CD	VARCHAR2(30) NULL,
+	PRIVACY_CD	VARCHAR2(30) NULL,
+	PRI_GRP_CD	VARCHAR2(30) NULL,
+	PRI_YR_BK_CURCY_CD	VARCHAR2(20) NULL,
+	PRI_YR_BL_CURCY_CD	VARCHAR2(20) NULL,
+	PROD_DIST_CD	VARCHAR2(30) NULL,
+	PRTNR_CERT_CD	VARCHAR2(30) NULL,
+	PRTNR_ORG_INT_ID	VARCHAR2(15) NULL,
+	PRTNR_TYPE_CD	VARCHAR2(30) NULL,
+	PR_ADDR_ID	VARCHAR2(15) NULL,
+	PR_ADDR_PER_ID	VARCHAR2(15) NULL,
+	PR_AGREE_ID	VARCHAR2(15) NULL,
+	PR_BILL_PRFL_ID	VARCHAR2(15) NULL,
+	PR_BL_ADDR_ID	VARCHAR2(15) NULL,
+	PR_BL_OU_ID	VARCHAR2(15) NULL,
+	PR_BL_PER_ID	VARCHAR2(15) NULL,
+	PR_COMPETITOR_ID	VARCHAR2(15) NULL,
+	PR_CON_ID	VARCHAR2(15) NULL,
+	PR_CO_MSTR_ID	VARCHAR2(15) NULL,
+	PR_CRDT_AREA_ID	VARCHAR2(15) NULL,
+	PR_DISCNT_ID	VARCHAR2(15) NULL,
+	PR_EAI_SLS_AREA_ID	VARCHAR2(15) NULL,
+	PR_EMP_REL_ID	VARCHAR2(15) NULL,
+	PR_EMP_TERR_ID	VARCHAR2(15) NULL,
+	PR_FULFL_INVLOC_ID	VARCHAR2(15) NULL,
+	PR_GEO_ID	VARCHAR2(15) NULL,
+	PR_IMPLSVC_VNDR_ID	VARCHAR2(15) NULL,
+	PR_INDUST_ID	VARCHAR2(15) NULL,
+	PR_LOGO_ID	VARCHAR2(15) NULL,
+	PR_MED_PROC_ID	VARCHAR2(15) NULL,
+	PR_MGR_POSTN_ID	VARCHAR2(15) NULL,
+	PR_MKT_SEG_ID	VARCHAR2(15) NULL,
+	PR_ORG_PAY_PRFL_ID	VARCHAR2(15) NULL,
+	PR_ORG_TRGT_MKT_ID	VARCHAR2(15) NULL,
+	PR_OU_TYPE_ID	VARCHAR2(15) NULL,
+	PR_PAY_OU_ID	VARCHAR2(15) NULL,
+	PR_PHONE_ID	VARCHAR2(15) NULL,
+	PR_POSTN_ID	VARCHAR2(15) NULL,
+	PR_PRFL_ID	VARCHAR2(15) NULL,
+	PR_PRI_LST_ID	VARCHAR2(15) NULL,
+	PR_PROD_ID	VARCHAR2(15) NULL,
+	PR_PROD_LN_ID	VARCHAR2(15) NULL,
+	PR_PRTNR_OU_ID	VARCHAR2(15) NULL,
+	PR_PRTNR_PROG_ID	VARCHAR2(15) NULL,
+	PR_PRTNR_TIER_ID	VARCHAR2(15) NULL,
+	PR_PRTNR_TYPE_ID	VARCHAR2(15) NULL,
+	PR_PTSHP_MKTSEG_ID	VARCHAR2(15) NULL,
+	PR_REP_ASGN_TYPE	VARCHAR2(30) NULL,
+	PR_SECURITY_ID	VARCHAR2(15) NULL,
+	PR_SHIP_ADDR_ID	VARCHAR2(15) NULL,
+	PR_SHIP_OU_ID	VARCHAR2(15) NULL,
+	PR_SHIP_PER_ID	VARCHAR2(15) NULL,
+	PR_SITU_ID	VARCHAR2(15) NULL,
+	PR_SPECIALTY_ID	VARCHAR2(15) NULL,
+	PR_SPEC_ID	VARCHAR2(15) NULL,
+	PR_SRV_AGREE_ID	VARCHAR2(15) NULL,
+	PR_SVC_POSTN_ID	VARCHAR2(15) NULL,
+	PR_SYN_ID	VARCHAR2(15) NULL,
+	PR_TERRITORY_ID	VARCHAR2(15) NULL,
+	PR_TERR_ID	VARCHAR2(15) NULL,
+	PR_VEHICLE_ID	VARCHAR2(15) NULL,
+	PTNTL_SLS_CURCY_CD	VARCHAR2(20) NULL,
+	RATING	VARCHAR2(30) NULL,
+	REGION	VARCHAR2(25) NULL,
+	REGION_ID	VARCHAR2(15) NULL,
+	REL_ID	VARCHAR2(15) NULL,
+	REL_NAME	VARCHAR2(100) NULL,
+	REVENUE_CLASS_CD	VARCHAR2(30) NULL,
+	RLZD_ROI_DESC	VARCHAR2(250) NULL,
+	ROUTE	VARCHAR2(30) NULL,
+	RTE_TO_MKT_DESC	VARCHAR2(500) NULL,
+	RULE_ATTRIB1	VARCHAR2(50) NULL,
+	RULE_ATTRIB2	VARCHAR2(50) NULL,
+	SALES_ORG_CD	VARCHAR2(30) NULL,
+	SLS_DIST_CD	VARCHAR2(30) NULL,
+	STAFF	VARCHAR2(250) NULL,
+	STATE_ABBRE_CD	VARCHAR2(30) NULL,
+	STATUS_CD	VARCHAR2(30) NULL,
+	STAT_REASON_CD	VARCHAR2(30) NULL,
+	SURVEY_TYPE_CD	VARCHAR2(30) NULL,
+	SVC_CVRG_STAT_CD	VARCHAR2(30) NULL,
+	TAX_EXEMPT_NUM	VARCHAR2(30) NULL,
+	TAX_IDEN_NUM	VARCHAR2(50) NULL,
+	TAX_LIST_ID	VARCHAR2(15) NULL,
+	TICKER_SYM	VARCHAR2(10) NULL,
+	TLR_INTG_MSG	VARCHAR2(250) NULL,
+	TLR_INTG_RET_CD	VARCHAR2(30) NULL,
+	URL	VARCHAR2(100) NULL,
+	VAT_REGN_NUM	VARCHAR2(30) NULL,
+	VISIT_PERIOD	VARCHAR2(30) NULL,
+	DIRECTIONS	LONG NULL,
+	X_AUDITABLE_C01	CHAR(1) NULL,
+	X_CUST_LAST_SEQ	VARCHAR2(40) NULL,
+	X_CUST_ORG_CODE	VARCHAR2(40) NULL,
+	X_FACTURABLE_C01	CHAR(1) NULL,
+	X_FIRST_NAME	VARCHAR2(50) NULL,
+	X_INTEGRATION_STATUS_V30	VARCHAR2(30) NULL,
+	X_PASABLE_A_COBROS_C01	CHAR(1) NULL,
+	X_SEGMENTO_V30	VARCHAR2(30) NULL,
+	X_SOURCE	VARCHAR2(50) NULL,
+	X_SOURCE_CODE	VARCHAR2(10) NULL,
+	X_STATUS_V30	VARCHAR2(30) NULL,
+	X_SUBSEGMENTO_V30	VARCHAR2(30) NULL,
+	X_TIPO_CUENTA_C30	VARCHAR2(30) NULL,
+	X_VF_BG_VER_CODE	VARCHAR2(50) NULL,
+	X_VF_CUST_STAT_CD	VARCHAR2(50) NULL,
+	X_VF_CUSTOMER_TAX_CITY	VARCHAR2(50) NULL,
+	X_VF_ROOT_TRANSACTION_ID	VARCHAR2(50) NULL,
+	X_VF_TAX_NUMBER	VARCHAR2(30) NULL,
+	X_VF_TAX_OFFICE	VARCHAR2(100) NULL,
+	X_ACTIVE_CONSTRAIN	CHAR(1) NULL,
+	X_DUNNING_STEP	VARCHAR2(30) NULL,
+	X_GIB_ACCOUNT_STATUS	VARCHAR2(30) NULL,
+	X_GIB_COUNTER	NUMBER(10,0) NULL,
+	X_GIB_FLAG	CHAR(1) NULL,
+	X_GIB_VER_REASON	VARCHAR2(30) NULL,
+	X_LAST_VER_DATE	DATE NULL,
+	X_MIGR_RUN_ID	VARCHAR2(30) NULL,
+	X_OLD_FUL_CENTER_FLG	CHAR(1) NULL,
+	X_OLD_NAME	VARCHAR2(100) NULL,
+	X_OLD_TAX_NUMBER	VARCHAR2(30) NULL,
+	X_OLD_TAX_OFFICE	VARCHAR2(100) NULL,
+	X_PREV_RUN_ID	NUMBER(10,0) NULL,
+	X_REG_NUMBER	VARCHAR2(15) NULL,
+	X_TOTAL_DUE_AMOUNT	VARCHAR2(15) NULL,
+	X_VF_BG_ACTION	VARCHAR2(50) NULL,
+	X_VF_BG_INQ_VER_CODE	VARCHAR2(50) NULL,
+	X_VF_BG_INQ_VER_DATE	DATE NULL,
+	X_VF_BG_INQ_VER_DESC	VARCHAR2(100) NULL,
+	X_VF_BG_LIST	VARCHAR2(50) NULL,
+	X_VF_BG_VER_DATE	DATE NULL,
+	X_VF_BG_VER_DESC	VARCHAR2(100) NULL,
+	X_VF_MERNIS_COUNTER	NUMBER(10,0) NULL,
+	X_VF_OLD_CITY	VARCHAR2(50) NULL,
+	X_VG_GIB_VER_STATUS	VARCHAR2(50) NULL,
+	X_YTS	CHAR(1) NULL,
+	X_GIB_DETAILED_DATE	DATE NULL,
+	X_GIB_TAX_ID	VARCHAR2(30) NULL,
+	X_VF_TK_NOT_NUM_FLG	CHAR(1) NULL,
+	X_VF_JOKER_ACTIVATED	VARCHAR2(50) NULL,
+	X_VF_JOKER_REQUESTED	VARCHAR2(50) NULL,
+	X_VF_JOKER_TOT_POINT	VARCHAR2(100) NULL,
+	X_VF_BACK_OFFICE_FLG	VARCHAR2(1) NULL,
+	X_VF_UNPAID_AMT	NUMBER(22,7) NULL,
+	X_VF_UNPAID_AMT_LAST_UPD	DATE NULL,
+	X_VF_CAMP_ACTIVE	VARCHAR2(30) NULL,
+	X_VF_CURRENT_VALUE	VARCHAR2(30) NULL,
+	X_VF_DUNNING_EXEMPT_FLAG	VARCHAR2(30) NULL,
+	X_VF_FRAUD_FLAG	VARCHAR2(30) NULL,
+	X_VF_GIVEN_VALUE	VARCHAR2(30) NULL,
+	X_VF_INSTANT_VALUE	VARCHAR2(30) NULL,
+	X_VF_MICRO_SEGMENT	VARCHAR2(30) NULL,
+	X_VF_PORT_OUT_RISK_FLAG	VARCHAR2(30) NULL,
+	X_MIGR_FLG_STATUS	CHAR(1) NULL,
+	X_MIGR_STATUS	VARCHAR2(30) NULL,
+	X_VF_CC_ACTION	VARCHAR2(50) NULL,
+	X_VF_CHURN_SCORE	VARCHAR2(50) NULL,
+	X_VF_COM_REG_NO	NUMBER(10,0) NULL,
+	X_VF_FIRST_SUB_DT	DATE NULL,
+	X_VF_INTERNET_COST	VARCHAR2(30) NULL,
+	X_VF_INVOICE_LIMIT_AGENT	NUMBER(22,7) NULL,
+	X_VF_LEGACY_ID	VARCHAR2(50) NULL,
+	X_VF_MERNIS_INQ_FLG	CHAR(1) NULL,
+	X_VF_MIGR_DATE	DATE NULL,
+	X_VF_MONTHLY_SALARY	NUMBER(10,0) NULL,
+	X_VF_MSISDN	VARCHAR2(50) NULL,
+	X_VF_PRM_PR_POSTN_ID	VARCHAR2(15) NULL,
+	X_VF_PSTN_COST	VARCHAR2(30) NULL,
+	X_VF_REASON	VARCHAR2(50) NULL,
+	X_VF_SATISFACTION_LEVEL	VARCHAR2(50) NULL,
+	X_VF_YEARLY_REVENUE	NUMBER(10,0) NULL,
+	X_VIP_CODE	VARCHAR2(5) NULL,
+	X_MIGR_SUB_RUN_ID	VARCHAR2(30) NULL,
+	X_VF_SPECIAL_FLG	CHAR(1) NULL,
+	X_VF_USEPRIVATEDATA	VARCHAR2(30) NULL,
+	X_VF_PRIVATEOPTDATE	DATE NULL,
+	X_VF_PRIVATEOPTUSR	VARCHAR2(60) NULL,
+	AIA_INTEG1_ID	VARCHAR2(500) NULL,
+	BANK_CODE	VARCHAR2(50) NULL,
+	EXTERNAL_HOST_FLG	CHAR(1) NULL,
+	IMG_SRC_PATH	VARCHAR2(500) NULL,
+	OD_LAST_UPD_BY	VARCHAR2(125) NULL,
+	ONDEMAND_SYNC_FLG	CHAR(1) NULL,
+	PR_LABOR_RATE_ID	VARCHAR2(15) NULL,
+	PR_SPL_RATE_LST_ID	VARCHAR2(15) NULL,
+	PRTNR_CTGRY_CD	VARCHAR2(30) NULL,
+	TAX_GROUP_CD	VARCHAR2(30) NULL,
+	THMBNL_IMGSRC_PATH	VARCHAR2(500) NULL,
+	WTR_SWIFT_CODE	VARCHAR2(40) NULL,
+	X_TELCO_OM_PUBLIC_ID	VARCHAR2(30) NULL,
+	X_VFTRCBU_CUSTOMER_INF_ID	VARCHAR2(30) NULL,
+	X_VFTRCBU_MIGRATING_FLG	CHAR(1) NULL,
+	X_VFTRCBU_NEXT_DUNNING_ACTION	VARCHAR2(500) NULL,
+	X_VF_PERMISSONS	VARCHAR2(250) NULL
+)  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[322ee529-ad7e-48ce-96e1-0aade0571832]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[110]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[110]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Create Target Table]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[JYTHON]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[import os as lib_os
+file_name = '#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>'
+file_list = [file_name + '.ctl', file_name + '.dat', file_name + '.log', file_name + '.out', file_name + '.sh']
+for i in file_list:
+	if not lib_os.path.isfile(i):
+		lib_os.system('touch  ' + i)  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[B]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[16454505-7662-4a03-8424-ad3c2957a26a]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[40]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Create tmp files]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[ 
+chmod 755 #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.dat
+  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d660ba60-79f0-4d8b-8201-4002094b6502]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Apply permissions to dat file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[sh -c "#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.sh"  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6b0260ab-8d45-4a73-8665-8754cbcb3632]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[120]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[120]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Call sqlldr]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[OPERATING_SYSTEM]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[sh -c
+"#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/chk_data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.sh"  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[O]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[db3c647b-cfec-48f2-94af-d44452bc54cd]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[150]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[150]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[check run]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[SIEBEL_ORACLE]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[EXTRACT_ETL_ORACLE]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[SUNOPSIS_API]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[SnpsOutFile "-file=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.sh"
+sqlldr control=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.ctl log=#GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.log userid=<?= odiRef.getInfo("DEST_USER_NAME") ?>/<?= odiRef.getInfo("DEST_PASS") ?>@<?= odiRef.getInfo("DEST_DSERV_NAME") ?> > #GLOBAL.VAR_SQLLDR_WORK_DIRECTORY/data_0f56e9e4-a6af-48d2-ade5-4a42b94c1af2_<?= odiRef.getObjectName("L", "S_ORG_EXT", "EXTRACT_ETL_ORACLE", "D") ?>.out  ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[S]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[d08bc916-0351-437f-b779-a7c2a52c9751]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[40]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[1455]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Generate sh or bat file]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle (SQLLDR-NO_WORK_TABLE)]]></Field>
+	<Field name="TaskName3" type="java.lang.String">null</Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_PACKAGE.499]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[5158c5a1-d424-4a1a-9403-fa301291bc91]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Vodafone BI (Pre_ETL).SIEBEL.PKG_EXT_SBL_S_ORG_EXT]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[21.6.21]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCEN.1455]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[736e654d-9271-40fa-a0ac-77fc934f3790]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Vodafone BI (Pre_ETL).SIEBEL.PKG_EXT_SBL_S_ORG_EXT.PKG_EXT_SBL_S_ORG_EXT Version 001]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_PROJECT.SNP_FOLDER.SNP_PACKAGE.SNP_SCEN]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[21.6.21.33]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.1455.0]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[cc149184-b98b-4dc0-98b0-e07b024da756]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.1455.1]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[8e61e97f-a442-4c4b-ac70-7e099c35259f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.1455.2]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[23d8dc0f-f13a-48ae-826d-12ca203ff90f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String">null</Field>
+ <Field name="RefObjFQType" type="java.lang.String">null</Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[37]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.07]]></Field>
+</Object>
+</SunopsisExport>
