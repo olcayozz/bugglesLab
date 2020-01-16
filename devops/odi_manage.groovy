@@ -11,14 +11,6 @@ import oracle.odi.domain.runtime.scenario.finder.*
 import oracle.odi.impexp.*
 import oracle.odi.impexp.support.*
 
-logger = Logger.getLogger("oracle.jdbc")
-logger.setLevel(Level.SEVERE)
-
-logger = Logger.getLogger("oracle.odi")
-logger.setLevel(Level.SEVERE)
-
-logger = Logger.getLogger("org.eclipse")
-logger.setLevel(Level.SEVERE)
 
 def listObjects (odiInstance,odiClass,listOfObjects) {
 	odiObjects = odiInstance.getTransactionalEntityManager().getFinder(odiClass).findAll().sort{it.name}
